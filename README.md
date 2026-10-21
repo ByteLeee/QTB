@@ -8,6 +8,12 @@
 
 - [格外的活法](site/extraordinary-lives/index.html)：六期完整原创讲述，依据公开访谈与理论材料，附来源、练习、笔记和 Markdown 阅读稿。
 
+- [土星之环](site/saturn/index.html)：八期主题深读，附文学形式、历史证据与记忆辨析。
+- [日本历史与经济](site/japan/index.html)：十二期深读，附历史机制、因果辨析与资料出处。
+- [Agent：机器如何学会做事](site/agent/index.html)：十二期工程深读，附机制推演与动手自检。
+
+三辑均同步已发布的深读版；每辑页末提供整辑静态全文入口，可打印保存。
+
 站点首页：`site/index.html`。完整文章、搜索、阅读进度、笔记与原有阅读工具均保留。笔记和进度仅存当前浏览器，不跨设备同步。
 
 ## GitHub Pages
