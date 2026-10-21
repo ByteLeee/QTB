@@ -6,6 +6,8 @@
 - [反脆弱](site/antifragile/index.html)：八期原创主题阅读。
 - [有限与无限的游戏](site/infinite-games/index.html)：六期原创主题阅读，附思考练习与笔记。
 
+- [格外的活法](site/extraordinary-lives/index.html)：六期完整原创讲述，依据公开访谈与理论材料，附来源、练习、笔记和 Markdown 阅读稿。
+
 站点首页：`site/index.html`。完整文章、搜索、阅读进度、笔记与原有阅读工具均保留。笔记和进度仅存当前浏览器，不跨设备同步。
 
 ## GitHub Pages
