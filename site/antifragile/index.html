@@ -29,7 +29,7 @@ window.Depth = (()=>{
  return '<section class="depth-study" aria-label="深读与辨析"><p class="depth-label">深读版 · 论证 / 证据 / 边界</p><p class="depth-note">下文区分原作线索、外部研究与原创推演；数字模型及假想情境用于检验机制，不是原书案例。</p>'+e.sections.map(s=>'<section><h2>'+esc(s.heading)+'</h2>'+s.paragraphs.map(p=>'<p>'+fmt(p)+'</p>').join('')+'</section>').join('')+'<aside class="depth-sources"><h3>本次深读的出处与适用范围</h3><ol>'+e.sources.map(s=>'<li><a href="'+esc(s.url)+'" target="_blank" rel="noopener noreferrer">'+esc(s.title)+' ↗</a><p>'+esc(s.note||'')+'</p></li>').join('')+'</ol><p>书籍页码随版本变化；未核验的页码不标注。以上是独立评论与研究入口，不是原作全文或完整复述。</p></aside></section>'};
  return {data,text,count,render};
 })();
-</script></head>
+</script><link data-qtb-nav rel="stylesheet" href="../reading.css?v=1"><script defer src="../reading-core.js?v=1"></script><script defer src="../reading-nav.js?v=1"></script></head>
 <body>
 <a class="skip" href="#main">跳转到正文</a>
 <div class="progress-track"><div class="progress-fill" id="scrollProgress"></div></div>
@@ -93,5 +93,5 @@ window.addEventListener('scroll',onScroll,{passive:true});
 window.addEventListener('hashchange',()=>{const m=location.hash.match(/^#chapter-(\d\d)$/);if(m){const i=chapters.findIndex(c=>c.num===m[1]);if(i>=0&&i!==current)showChapter(i,false)}else if(current!==-1)openHome(false)});
 applyTheme();applyFont();renderGrid();updateProgress();const hash=location.hash.match(/^#chapter-(\d\d)$/);if(hash){const i=chapters.findIndex(c=>c.num===hash[1]);if(i>=0)showChapter(i,false);else openHome(false)}else openHome(false);
 </script>
-<nav aria-label="系列导航" style="position:fixed;bottom:16px;right:16px;z-index:1000;display:flex;gap:14px;padding:10px 16px;border-radius:24px;background:#fffefa;color:#202a28;box-shadow:0 2px 16px #0002;font:13px/1.5 sans-serif"><a href="../">← 全部系列</a><a href="../systems/">系统之美 ↗</a></nav><p style="text-align:center;padding:24px"><a href="deep-reading.html">阅读整辑深读全文 / 打印保存 ↗</a></p></body>
+<p style="text-align:center;padding:24px"><a href="deep-reading.html">阅读整辑深读全文 / 打印保存 ↗</a></p></body>
 </html>
