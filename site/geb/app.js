@@ -1,6 +1,9 @@
 (() => {
   'use strict';
   const key = 'qtb-geb-v1';
+  const episode = document.body.dataset.episode || '01';
+  // Keep the original episode-one note key so existing notes remain available.
+  const noteName = episode === '01' ? 'notes' : `notes:${episode}`;
   const byId = id => document.getElementById(id);
   const read = (name, fallback = '') => { try { return localStorage.getItem(`${key}:${name}`) ?? fallback; } catch { return fallback; } };
   const save = (name, value) => { try { localStorage.setItem(`${key}:${name}`, value); return true; } catch { return false; } };
@@ -35,15 +38,17 @@
     byId('focus').textContent = '专注阅读';
     byId('focus').setAttribute('aria-pressed', 'false');
   }));
-  byId('notes').value = read('notes');
+  byId('notes').value = read(noteName);
   byId('notes').addEventListener('input', () => {
-    const ok = save('notes', byId('notes').value);
+    const ok = save(noteName, byId('notes').value);
     byId('note-status').textContent = ok ? '已保存到当前浏览器 · 不会自动跨设备同步。' : '浏览器暂时无法保存，请使用“导出笔记”保留内容。';
   });
   byId('export').addEventListener('click', () => {
-    const content = '# 借书之问 · 集异璧之大成\n\n## 第一期：当你打开自己的源代码，会在哪里找到“我”？\n\n观察问题：我对自己的描述，是在总结过去，还是正在规定未来？\n\n' + byId('notes').value + '\n';
+    const title = byId('episode-title').textContent.replace(/\s+/g, ' ').trim();
+    const question = byId('exercise-question')?.textContent || '我对自己的描述，是在总结过去，还是正在规定未来？';
+    const content = `# 借书之问 · 集异璧之大成\n\n## 第 ${Number(episode)} 期：${title}\n\n观察问题：${question}\n\n${byId('notes').value}\n`;
     const url = URL.createObjectURL(new Blob([content], {type: 'text/markdown;charset=utf-8'}));
-    const a = document.createElement('a'); a.href = url; a.download = 'geb-episode-01-notes.md'; document.body.append(a); a.click(); a.remove();
+    const a = document.createElement('a'); a.href = url; a.download = `geb-episode-${episode}-notes.md`; document.body.append(a); a.click(); a.remove();
     setTimeout(() => URL.revokeObjectURL(url), 1000);
   });
   function progress() {
