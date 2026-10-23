@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#f5f3ea"><meta name="description" content="借书之问《集异璧之大成》第2期：按规则做事，为什么不等于理解规则？。含原著论证、案例、反例、边界与可追溯参考资料。"><title>第2期 · 按规则做事，为什么不等于理解规则？｜借书之问·集异璧</title><link rel="stylesheet" href="style.css"><script src="app.js" defer></script></head>
+<body data-episode="02"><a class="skip" href="#reading">跳到正文</a><div class="progress-track" aria-hidden="true"><div id="progress"></div></div><header><a class="brand" href="../"><span class="brandmark">问</span>借书之问<span class="brand-en">BOOKS INTO QUESTIONS</span></a><nav aria-label="主导航"><a href="index.html#route">阅读路线</a><a href="#sources">参考资料</a><button id="theme" type="button" aria-pressed="false">夜间阅读</button></nav></header>
+<main class="reading-layout" id="reading"><aside class="sidebar"><p class="sidebar-title">集异璧之大成 / 八期主题深读</p><a href="index.html#reading"><small>01</small>当你打开自己的源代码，会在哪里找到“我”？</a><a href="episode-02.html" aria-current="page" class="active"><small>02</small>按规则做事，为什么不等于理解规则？</a><a href="episode-03.html"><small>03</small>意义究竟在符号里，还是在解释者那里？</a><a href="episode-04.html"><small>04</small>一段音乐、一幅画，怎样让层次发生纠缠？</a><a href="episode-05.html"><small>05</small>数学怎样谈论自己，并遇到证明的边界？</a><a href="episode-06.html"><small>06</small>没有总指挥，整体为什么还能表现得有目的？</a><a href="episode-07.html"><small>07</small>当系统开始建立自己的模型，会发生什么？</a><a href="episode-08.html"><small>08</small>解释了“我”的运作，是否就解释了“我”的体验？</a><a href="index.html#route">↑ 系列目录</a></aside>
+<article class="article" aria-labelledby="episode-title"><div class="reading-top"><a class="back" href="index.html#route">← 集异璧 · 八期目录</a><div class="read-tools" aria-label="阅读工具"><button id="smaller" type="button" aria-label="缩小正文字号">A−</button><button id="larger" type="button" aria-label="放大正文字号">A＋</button><button id="focus" type="button" aria-pressed="false">专注阅读</button><button id="print" type="button">打印</button></div></div>
+<div class="eyebrow">GÖDEL, ESCHER, BACH / EPISODE 02</div><h1 id="episode-title">按规则做事，为什么不等于理解规则？</h1><p class="article-question">从 MU 谜题到不变量：把执行与解释分开</p><div class="article-meta">原创主题深读 · 正文约 1,956 汉字 · 约 9 分钟阅读 / 朗读速度因人而异 · 2026.10.23</div>
+<details class="chapter-outline"><summary>本期内容导航</summary><div><a href="#s1">一台很勤奋、却不知道该不该继续的机器</a><a href="#s2">理解发生在什么地方</a><a href="#s3">一条业务规则，也有它的元问题</a><a href="#s4">反例：少执行，也未必更懂</a><a href="#s5">留给自己的一个检验</a><a href="#sources">原著与参考资料</a></div></details>
+<div class="prose" id="prose"><p>晚上的办公室里，一位程序员盯着屏幕。程序已经生成了十万条字符串，目标却始终没有出现。他把搜索深度再加一层，内存占用随之上涨。他开始怀疑：是不是还不够快？再给它一点时间，会不会就找到了？</p>
+<p>这是本文自拟的开场。不过，屏幕上的难题来自《集异璧》第一章的 MU 谜题。本期只追问一件事：当我们说一个系统“理解了规则”，究竟比“不断执行规则”多出了什么？</p>
+<h2 id="s1">一台很勤奋、却不知道该不该继续的机器</h2>
+<p>游戏从 MI 开始，只允许四种改写。末尾是 I，可以追加 U；M 后面的整段可以复制一次；任意一个连续的 III 可以换成 U；任意一个连续的 UU 可以删掉。目标是得到 MU。这里的 M、I、U 只是符号，不能按它们在别处的含义自由联想。<a class="cite" href="#source-1" aria-label="参考资料1">[1]</a></p>
+<p>比如 MI 可以变成 MIU，也可以变成 MII。MII 再复制得到 MIIII，把其中一组三个 I 换掉，会得到 MUI 或 MIU。每一步是否合法，都能逐字符检查。执行这些步骤完全不需要理解“为什么这样做”。</p>
+<p>但推导树会迅速分叉。你总能继续生成一些字符串。“暂时没找到”没有说明目标不可能出现，正如翻过很多页字典没看到一个词，并不说明整本字典里没有它。</p>
+<p>侯世达把读者放进这个游戏，关键是让两种任务发生分离：沿规则生成结果，与判断规则允许哪些结果。原著定位是第一章《The MU-puzzle》；前者属于系统内部的推导，后者开始把整个系统当作研究对象。<a class="cite" href="#source-1" aria-label="参考资料1">[1]</a></p>
+<p>现在暂时别看字符串长什么样，只数里面有几个 I。</p>
+<p>起点有一个 I。追加 U 不改变这个数；复制 M 后面的内容让这个数翻倍；III 换成 U 让这个数减三；删除 UU 也不改变这个数。</p>
+<p>于是，问题可以压缩成一个余数游戏。一个数除以三，如果余一，翻倍后余二；如果余二，翻倍后余一。减三不改变余数。另外两条规则不改变 I 的数量。因此，从一开始，I 的数量就只能在“除以三余一或余二”的范围内活动，永远到不了三的倍数。</p>
+<p>MU 含有零个 I。零也是三的倍数。目标因此不可能到达。</p>
+<p>这里并没有列完所有情况。证明依靠的是一个<strong>不变量</strong>：无论怎样合法操作，某种性质始终保留。它替我们同时约束了尚未生成的、任意长的推导。</p>
+<p>这一步的力量，在于把无穷多个具体操作换成一个关于操作的论证。程序员终于可以关掉搜索程序，理由也从“机器跑得太久”变成“每一条合法路径都跨不过这个限制”。</p>
+<h2 id="s2">理解发生在什么地方</h2>
+<p>很容易把这个时刻讲成人类跳出了机器的牢笼。但先别急。</p>
+<p>我们完全可以写另一个程序，自动计算规则如何改变 I 的数量，再尝试寻找模三不变量。这个程序不再只枚举 MIU 字符串，而是分析一个形式系统。它仍然是程序。</p>
+<p>因此，“系统外部”是相对于<strong>当前讨论的规则集合</strong>而言的。它没有自动指向计算之外、物理之外，或者一种人类独有的神秘空间。把元层次推理也形式化，原来的“外部”就可以成为一个更大系统的内部。哥德尔问题会在第五期进一步限制这种扩大，但不能提前把限制当作人类必胜的证据。</p>
+<p>我们可以提出一个更谨慎的理解标准：系统是否能找到对任务有用的表示，说明一个操作为什么有效，区分失败的不同原因，并在条件变化时修改自己的判断？这是一组需要观察的能力，而不是某句话里出现“我理解了”就能满足的标准。</p>
+<p>例如，同样是没有输出，可能因为目标不可达，也可能因为搜索策略不佳、资源不够，或实现有错误。把这些情况都解释为“还需要努力”，恰好说明判断尚未触及问题的结构。</p>
+<h2 id="s3">一条业务规则，也有它的元问题</h2>
+<p>用一个自拟的软件审核场景接近这种区别。一套规则规定：照片识别出的名称与库中名称完全一致，就标记重复。执行器只需比较两个字符串。</p>
+<p>如果它准确地执行了一百万次比较，是否就理解了“重复地点”？未必。同名的两家分店可能是两个地点；同一个地点也可能有简称与全称。比较操作定义得很清楚，但“完全一致能否代表地点重复”属于规则与现实目标的关系。</p>
+<p>当我们分析错误样本、核对地点层级、询问规则覆盖哪些地区时，我们在做元层次检查。这个类比帮助解释的是：<strong>规则执行正确，不自动保证规则选择正确。</strong>它不能把业务规则的含糊，直接说成哥德尔式不可判定；前者常常可以靠补数据、澄清定义和改流程解决。</p>
+<p>这也给“理解”增加了现实维度。MIU 世界封闭，允许的操作已经列全；业务世界中，目标本身可能需要重新协商。形式系统训练我们严格，现实问题则要求我们检查形式化时遗漏了什么。</p>
+<h2 id="s4">反例：少执行，也未必更懂</h2>
+<p>不过，“执行得多不等于理解”不能反过来变成“执行都没有用”。如果目标是确认 MIU 中某个具体字符串可达，给出一条合法推导就足够。为它构造宏大的元理论，反而可能浪费时间。</p>
+<p>不变量也只解决它真正覆盖的问题。I 的数量不是三的倍数，是可达的必要条件；仅凭这一点，不能不加证明地宣布每个满足条件的字符串都可达。能排除一类结果，与能完整判定所有结果，是不同的成就。</p>
+<p>人类同样会误用自己找到的“规律”。看见几个例子就相信一个不变量，和证明它对每条规则都成立，之间隔着关键一步。对规则的自信，也可能只是更高层的机械反应。</p>
+<p>回到那间办公室，程序员真正获得的进步，不是从此看不起枚举。他学会了在继续消耗算力之前，问清楚：眼前缺少的是一条路径，还是一份关于所有路径的理由？</p>
+<h2 id="s5">留给自己的一个检验</h2>
+<p>选一个最近反复失败的任务，分别写出“我执行过什么”和“我凭什么认为这些操作能达到目标”。然后找一个条件变化：若允许把单个 I 删除，上面的 MU 不可达证明哪一步会失效？答案很具体：I 数量模三非零不再保持，MI 可以直接变成 M，原不变量失效。但这仍不等于仅凭这条新操作就已证明 MU 可达，需要另外给出合法路径。</p>
+<p>尝试再往前一步：新系统里，MI → MIU → MU 已是一条路径。每个结论都要带着它自己的理由。这比笼统地说“跳出思维框架”，更接近本期想训练的理解。</p></div>
+<section class="exercise" id="exercise"><h2>把问题留在生活里</h2><p id="exercise-question">选一个反复失败的任务，分别写出执行过程与可达性依据。若增加“可删除单个 I”规则，原不变量哪一步失效？请给出得到 MU 的新路径。</p></section>
+<section class="note"><label for="notes">第 2 期 · 你的思考笔记</label><textarea id="notes" placeholder="我理解到的论证是……最有力的反例是……我仍然不确定的是……"></textarea><p class="note-status" id="note-status" role="status">本期笔记仅保存在当前浏览器，不会自动跨设备同步。</p><div class="end-actions"><button id="export" type="button">导出本期笔记</button><a class="download-link" href="downloads/02.md" download>下载本期 Markdown 稿 ↓</a></div></section>
+<section class="references" id="sources" aria-labelledby="sources-title"><h2 id="sources-title">原著依据与参考资料</h2><p>原著定位：第一章 The MU-puzzle；第十五章 Jumping out of the System（元层次讨论）。按章节与小节核对，避免不同版本页码混淆。正文使用原创表述；自拟场景与分析性延伸已在文中标明。数学内容为概念讲解，完整证明须查阅原始文献。</p><ol><li id="source-1"><a href="https://www.hachettebookgroup.com/titles/douglas-r-hofstadter/godel-escher-bach/9780465026562/">Douglas R. Hofstadter，Gödel, Escher, Bach，Basic Books，1979 / 1999</a><br>第一章的 MIU 四条规则及系统内/系统外之分；本期模三证明为独立展开。章节定位经英文原书核对，中文版本页码可能不同。</li></ol></section><div class="nextprev"><a href="index.html#reading">← 上一期</a><a href="episode-03.html">下一期 · 意义究竟在符号里，还是在解释者那里？ →</a></div>
+<details class="chapter-outline mobile-series"><summary>八期完整目录</summary><div><a href="index.html#reading"><small>01</small>当你打开自己的源代码，会在哪里找到“我”？</a><a href="episode-02.html" aria-current="page" class="active"><small>02</small>按规则做事，为什么不等于理解规则？</a><a href="episode-03.html"><small>03</small>意义究竟在符号里，还是在解释者那里？</a><a href="episode-04.html"><small>04</small>一段音乐、一幅画，怎样让层次发生纠缠？</a><a href="episode-05.html"><small>05</small>数学怎样谈论自己，并遇到证明的边界？</a><a href="episode-06.html"><small>06</small>没有总指挥，整体为什么还能表现得有目的？</a><a href="episode-07.html"><small>07</small>当系统开始建立自己的模型，会发生什么？</a><a href="episode-08.html"><small>08</small>解释了“我”的运作，是否就解释了“我”的体验？</a></div></details></article></main>
+<footer><a href="../">借书之问 · 返回书架 ↗</a><a href="reading.md" download>下载八期合辑 ↓</a></footer></body></html>
