@@ -21,7 +21,11 @@ jobs:
       - name: Build shared reading catalog
         run: python3 scripts/build-reading-system.py
       - name: Validate reading system
-        run: node --test tests/reading-system.test.cjs
+        run: node --test tests/*.test.cjs
+      - name: Run reproducible engineering lab
+        run: python3 site/downloads/agent-control-experiment.py
+      - name: Validate content identities and links
+        run: python3 scripts/validate-reading-content.py
       - name: Configure Pages
         uses: actions/configure-pages@v5
       - name: Upload static site

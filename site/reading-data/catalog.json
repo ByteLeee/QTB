@@ -4,70 +4,135 @@
     "title": "系统之美",
     "count": 8,
     "description": "8 期主题阅读",
+    "map": {
+      "core": "行动为何适得其反？",
+      "thread": "先追踪积累与延迟，再检查反馈、规则、竞争与干预点。八期不是一组口号，而是从现象追问反复发生的结构。",
+      "limits": "回路图是待检验解释；结构解释不取消个人责任，也不保证能够预测复杂世界。",
+      "output": "选一个反复发生的问题，画出变量、路径、时间延迟及可推翻解释的证据。"
+    },
     "episodes": [
       {
         "title": "为什么我们越努力解决问题，问题反而越严重？",
-        "question": "为什么我们越努力解决问题，问题反而越严重？",
+        "question": "你正在反复解决的一个问题，经由哪条反馈路径再次出现？",
         "original": "systems/index.html#/read/01",
         "id": "systems:1",
         "number": 1,
-        "minutes": 11
+        "minutes": 8,
+        "evidence": [
+          {
+            "id": "S1",
+            "title": "梅多斯 · Bathtubs 101 原书公开草稿节选",
+            "url": "https://donellameadows.org/wp-content/userfiles/bathtubs101.pdf",
+            "location": "PDF第1～9页，重点第1、3、6～9页",
+            "support": "用于存量、流量、状态改变需要时间的概念核对；项目、数字与回路是本站自拟，不作为原书案例。",
+            "checked": "2026-10-24"
+          },
+          {
+            "id": "S2",
+            "title": "梅多斯 · Leverage Points",
+            "url": "https://donellameadows.org/archives/leverage-points-places-to-intervene-in-a-system/",
+            "location": "State of the System图解；第9、8、7、6项及开篇限定",
+            "support": "用于反馈、延迟、信息与干预边界；不是对本文教学模型的实证确认。",
+            "checked": "2026-10-24"
+          },
+          {
+            "id": "S3",
+            "title": "Repenning & Sterman · Nobody Ever Gets Credit…",
+            "url": "https://mitmgmtfaculty.mit.edu/jsterman/nobodyevergetscredit/",
+            "location": "作者主页Abstract，第2～3段；论文2001年",
+            "support": "本次核读摘要，未把全文未核部分作为具体论据。",
+            "checked": "2026-10-24"
+          },
+          {
+            "id": "S4",
+            "title": "梅多斯 · Dancing With Systems",
+            "url": "https://donellameadows.org/archives/dancing-with-systems/",
+            "location": "开篇及Get the beat、Stay humble、Honor and protect information",
+            "support": "作者署名方法论；不是可保证成功的管理处方。",
+            "checked": "2026-10-24"
+          }
+        ],
+        "evidenceStatus": "核读基金会公开原书节选与作者文章，外部研究限作者摘要；全文原著未逐页核对。",
+        "changeNote": "重新组织为一条项目叙事，将存量、返工口径、反馈、因果反例和可撤回实验融入正文；删除二次收尾。",
+        "edition": "2026-10-24 · 深读样板",
+        "version": "2f13e9c56d3e"
       },
       {
         "title": "为什么我们总在问题爆发后，才发现早有征兆？",
-        "question": "为什么我们总在问题爆发后，才发现早有征兆？",
+        "question": "你熟悉的问题中，哪个指标比损害发生得更晚？",
         "original": "systems/index.html#/read/02",
         "id": "systems:2",
         "number": 2,
-        "minutes": 7
+        "minutes": 7,
+        "version": "64c7c278cad9",
+        "changeNote": "统一段落定位与资料阅读入口。",
+        "evidenceStatus": "沿用现有资料说明；本期尚未按新样板逐项复核。"
       },
       {
         "title": "为什么每个人都做了理性的选择，最后却得到荒谬的结果？",
-        "question": "为什么每个人都做了理性的选择，最后却得到荒谬的结果？",
+        "question": "一次各自合理却整体失效的选择，遗漏了谁能看到的信息？",
         "original": "systems/index.html#/read/03",
         "id": "systems:3",
         "number": 3,
-        "minutes": 7
+        "minutes": 7,
+        "version": "54613dd52a2c",
+        "changeNote": "统一段落定位与资料阅读入口。",
+        "evidenceStatus": "沿用现有资料说明；本期尚未按新样板逐项复核。"
       },
       {
         "title": "为什么规则越完善，人们反而越擅长钻空子？",
-        "question": "为什么规则越完善，人们反而越擅长钻空子？",
+        "question": "你见过哪条规则让人优化指标而偏离目标？",
         "original": "systems/index.html#/read/04",
         "id": "systems:4",
         "number": 4,
-        "minutes": 7
+        "minutes": 7,
+        "version": "a48141787741",
+        "changeNote": "统一段落定位与资料阅读入口。",
+        "evidenceStatus": "沿用现有资料说明；本期尚未按新样板逐项复核。"
       },
       {
         "title": "为什么有些解决办法，最后会让我们越来越依赖它？",
-        "question": "为什么有些解决办法，最后会让我们越来越依赖它？",
+        "question": "哪种救急措施正挤占解决根因的能力？",
         "original": "systems/index.html#/read/05",
         "id": "systems:5",
         "number": 5,
-        "minutes": 7
+        "minutes": 7,
+        "version": "52d59641e783",
+        "changeNote": "统一段落定位与资料阅读入口。",
+        "evidenceStatus": "沿用现有资料说明；本期尚未按新样板逐项复核。"
       },
       {
         "title": "为什么好的竞争，最后常常演变成所有人的消耗？",
-        "question": "为什么好的竞争，最后常常演变成所有人的消耗？",
+        "question": "你参与的一场竞争，是通过什么反馈持续加码的？",
         "original": "systems/index.html#/read/06",
         "id": "systems:6",
         "number": 6,
-        "minutes": 7
+        "minutes": 7,
+        "version": "f090fc9104d8",
+        "changeNote": "统一段落定位与资料阅读入口。",
+        "evidenceStatus": "沿用现有资料说明；本期尚未按新样板逐项复核。"
       },
       {
         "title": "如果只能改变一件事，究竟应该改变什么？",
-        "question": "如果只能改变一件事，究竟应该改变什么？",
+        "question": "对你关心的问题，改变哪个信息或规则比增加投入更有用？",
         "original": "systems/index.html#/read/07",
         "id": "systems:7",
         "number": 7,
-        "minutes": 7
+        "minutes": 7,
+        "version": "6611c4e253ab",
+        "changeNote": "统一段落定位与资料阅读入口。",
+        "evidenceStatus": "沿用现有资料说明；本期尚未按新样板逐项复核。"
       },
       {
         "title": "当世界复杂到无法掌控，我们该如何生活？",
-        "question": "当世界复杂到无法掌控，我们该如何生活？",
+        "question": "当一种解释仍有不确定性，你愿意怎样小步验证而非一次押注？",
         "original": "systems/index.html#/read/08",
         "id": "systems:8",
         "number": 8,
-        "minutes": 7
+        "minutes": 7,
+        "version": "672bc68fb54d",
+        "changeNote": "统一段落定位与资料阅读入口。",
+        "evidenceStatus": "沿用现有资料说明；本期尚未按新样板逐项复核。"
       }
     ]
   },
@@ -76,70 +141,100 @@
     "title": "反脆弱",
     "count": 8,
     "description": "8 期主题阅读",
+    "map": {
+      "core": "面对不确定性，什么安排能让损失可承受？",
+      "thread": "从脆弱性的非线性出发，经过预测、试错、选择、冗余和风险责任，最后检查反脆弱的伦理边界。",
+      "limits": "适度刺激、恢复条件和不可逆损伤必须一起讨论；系统获益不等于受损个体获益。",
+      "output": "解释一个小试验的收益、失败上限与恢复条件，而非给自己贴反脆弱标签。"
+    },
     "episodes": [
       {
         "title": "为什么越追求稳定，反而越容易崩溃？",
-        "question": "为什么越追求稳定，反而越容易崩溃？",
+        "question": "你依赖的一种稳定，靠修复风险还是遮蔽风险维持？",
         "original": "antifragile/index.html#chapter-01",
         "id": "antifragile:1",
         "number": 1,
-        "minutes": 10
+        "minutes": 10,
+        "version": "2e525a6af268",
+        "changeNote": "统一段落定位与资料阅读入口。",
+        "evidenceStatus": "沿用现有资料说明；本期尚未按新样板逐项复核。"
       },
       {
         "title": "为什么我们如此执着于预测未来？",
-        "question": "为什么我们如此执着于预测未来？",
+        "question": "你最近依赖的一次预测，如果错了会改变什么决定？",
         "original": "antifragile/index.html#chapter-02",
         "id": "antifragile:2",
         "number": 2,
-        "minutes": 8
+        "minutes": 8,
+        "version": "072a4d571805",
+        "changeNote": "统一段落定位与资料阅读入口。",
+        "evidenceStatus": "沿用现有资料说明；本期尚未按新样板逐项复核。"
       },
       {
         "title": "为什么有些错误让人成长，有些却足以毁掉人生？",
-        "question": "为什么有些错误让人成长，有些却足以毁掉人生？",
+        "question": "你准备尝试的一件事，失败上限是否真的可承担？",
         "original": "antifragile/index.html#chapter-03",
         "id": "antifragile:3",
         "number": 3,
-        "minutes": 8
+        "minutes": 8,
+        "version": "59c6c219d91c",
+        "changeNote": "统一段落定位与资料阅读入口。",
+        "evidenceStatus": "沿用现有资料说明；本期尚未按新样板逐项复核。"
       },
       {
         "title": "面对不可预测的风险，我们该如何安排选择？",
-        "question": "面对不可预测的风险，我们该如何安排选择？",
+        "question": "面对同一不确定性，你有哪些保留选择权的安排？",
         "original": "antifragile/index.html#chapter-04",
         "id": "antifragile:4",
         "number": 4,
-        "minutes": 8
+        "minutes": 8,
+        "version": "5d64f8b8e108",
+        "changeNote": "统一段落定位与资料阅读入口。",
+        "evidenceStatus": "沿用现有资料说明；本期尚未按新样板逐项复核。"
       },
       {
         "title": "为什么越高效的生活，有时越不堪一击？",
-        "question": "为什么越高效的生活，有时越不堪一击？",
+        "question": "你生活中哪项冗余最值得保留，它具体抵御什么中断？",
         "original": "antifragile/index.html#chapter-05",
         "id": "antifragile:5",
         "number": 5,
-        "minutes": 8
+        "minutes": 8,
+        "version": "6abc9c30a6d5",
+        "changeNote": "统一段落定位与资料阅读入口。",
+        "evidenceStatus": "沿用现有资料说明；本期尚未按新样板逐项复核。"
       },
       {
         "title": "为什么我们总觉得必须做点什么？",
-        "question": "为什么我们总觉得必须做点什么？",
+        "question": "你想立刻处理的一件事，等待的代价和干预的代价分别是什么？",
         "original": "antifragile/index.html#chapter-06",
         "id": "antifragile:6",
         "number": 6,
-        "minutes": 8
+        "minutes": 8,
+        "version": "3de53c274517",
+        "changeNote": "统一段落定位与资料阅读入口。",
+        "evidenceStatus": "沿用现有资料说明；本期尚未按新样板逐项复核。"
       },
       {
         "title": "谁有资格让别人承担风险？",
-        "question": "谁有资格让别人承担风险？",
+        "question": "你作出的一个决定，会让谁承担你本人不承担的风险？",
         "original": "antifragile/index.html#chapter-07",
         "id": "antifragile:7",
         "number": 7,
-        "minutes": 8
+        "minutes": 8,
+        "version": "9799cc272a6e",
+        "changeNote": "统一段落定位与资料阅读入口。",
+        "evidenceStatus": "沿用现有资料说明；本期尚未按新样板逐项复核。"
       },
       {
         "title": "我们真的应该追求反脆弱的人生吗？",
-        "question": "我们真的应该追求反脆弱的人生吗？",
+        "question": "你愿意在哪个范围试错，又在哪个范围优先保护稳定？",
         "original": "antifragile/index.html#chapter-08",
         "id": "antifragile:8",
         "number": 8,
-        "minutes": 9
+        "minutes": 9,
+        "version": "4cb826e5f7b3",
+        "changeNote": "统一段落定位与资料阅读入口。",
+        "evidenceStatus": "沿用现有资料说明；本期尚未按新样板逐项复核。"
       }
     ]
   },
@@ -148,6 +243,12 @@
     "title": "有限与无限的游戏",
     "count": 6,
     "description": "6 期主题阅读",
+    "map": {
+      "core": "赢得一个目标以后，生活还有什么可能？",
+      "thread": "区分具体目标的终点与生活继续展开的空间，再讨论评价、关系、学习、退出和现实资源。",
+      "limits": "无限游戏不是放弃责任、经济条件或有限竞争，也不是声称一种人生天然更高级。",
+      "output": "辨认自己使用的一块记分牌，并说明保留它与调整它各自的代价。"
+    },
     "episodes": [
       {
         "title": "终点为什么总在往后退",
@@ -155,7 +256,10 @@
         "original": "infinite-games/index.html#chapter-1",
         "id": "infinite-games:1",
         "number": 1,
-        "minutes": 13
+        "minutes": 13,
+        "version": "3d05a00f58c6",
+        "changeNote": "统一段落定位与资料阅读入口。",
+        "evidenceStatus": "沿用现有资料说明；本期尚未按新样板逐项复核。"
       },
       {
         "title": "记分牌是谁放在这里的",
@@ -163,7 +267,10 @@
         "original": "infinite-games/index.html#chapter-2",
         "id": "infinite-games:2",
         "number": 2,
-        "minutes": 11
+        "minutes": 11,
+        "version": "bd08a6498e87",
+        "changeNote": "统一段落定位与资料阅读入口。",
+        "evidenceStatus": "沿用现有资料说明；本期尚未按新样板逐项复核。"
       },
       {
         "title": "赢了争论之后",
@@ -171,7 +278,10 @@
         "original": "infinite-games/index.html#chapter-3",
         "id": "infinite-games:3",
         "number": 3,
-        "minutes": 11
+        "minutes": 11,
+        "version": "552076d4e921",
+        "changeNote": "统一段落定位与资料阅读入口。",
+        "evidenceStatus": "沿用现有资料说明；本期尚未按新样板逐项复核。"
       },
       {
         "title": "熟练之后，还能成为新手吗",
@@ -179,7 +289,10 @@
         "original": "infinite-games/index.html#chapter-4",
         "id": "infinite-games:4",
         "number": 4,
-        "minutes": 11
+        "minutes": 11,
+        "version": "93b6ae876c35",
+        "changeNote": "统一段落定位与资料阅读入口。",
+        "evidenceStatus": "沿用现有资料说明；本期尚未按新样板逐项复核。"
       },
       {
         "title": "退出是不是失败",
@@ -187,7 +300,10 @@
         "original": "infinite-games/index.html#chapter-5",
         "id": "infinite-games:5",
         "number": 5,
-        "minutes": 12
+        "minutes": 12,
+        "version": "f029c61b2ea7",
+        "changeNote": "统一段落定位与资料阅读入口。",
+        "evidenceStatus": "沿用现有资料说明；本期尚未按新样板逐项复核。"
       },
       {
         "title": "普通人有资格谈无限吗",
@@ -195,7 +311,10 @@
         "original": "infinite-games/index.html#chapter-6",
         "id": "infinite-games:6",
         "number": 6,
-        "minutes": 13
+        "minutes": 13,
+        "version": "0751e2da9894",
+        "changeNote": "统一段落定位与资料阅读入口。",
+        "evidenceStatus": "沿用现有资料说明；本期尚未按新样板逐项复核。"
       }
     ]
   },
@@ -204,6 +323,12 @@
     "title": "格外的活法",
     "count": 6,
     "description": "6 期主题阅读",
+    "map": {
+      "core": "普通日子怎样拥有不依赖逆袭的价值？",
+      "thread": "从成功叙事进入工作、离开、做自己、支持条件与微小改变，让个体选择重新放回社会环境。",
+      "limits": "人物材料与自拟情境应区分；自由需要资源，不能用心态调整替代劳动和照护条件。",
+      "output": "给一种不被成功故事看见的生活价值命名，并写出维持它需要的支持。"
+    },
     "episodes": [
       {
         "title": "没有逆袭，日子还算数吗",
@@ -211,7 +336,10 @@
         "original": "extraordinary-lives/index.html#chapter-1",
         "id": "extraordinary-lives:1",
         "number": 1,
-        "minutes": 9
+        "minutes": 9,
+        "version": "9bd1513c1d61",
+        "changeNote": "统一段落定位与资料阅读入口。",
+        "evidenceStatus": "沿用现有资料说明；本期尚未按新样板逐项复核。"
       },
       {
         "title": "一份工作，为什么要负责整个我",
@@ -219,7 +347,10 @@
         "original": "extraordinary-lives/index.html#chapter-2",
         "id": "extraordinary-lives:2",
         "number": 2,
-        "minutes": 9
+        "minutes": 9,
+        "version": "583066734869",
+        "changeNote": "统一段落定位与资料阅读入口。",
+        "evidenceStatus": "沿用现有资料说明；本期尚未按新样板逐项复核。"
       },
       {
         "title": "离开之后，谁替你接住生活",
@@ -227,7 +358,10 @@
         "original": "extraordinary-lives/index.html#chapter-3",
         "id": "extraordinary-lives:3",
         "number": 3,
-        "minutes": 8
+        "minutes": 8,
+        "version": "002855a1e87c",
+        "changeNote": "统一段落定位与资料阅读入口。",
+        "evidenceStatus": "沿用现有资料说明；本期尚未按新样板逐项复核。"
       },
       {
         "title": "连做自己，都成了一场比赛",
@@ -235,7 +369,10 @@
         "original": "extraordinary-lives/index.html#chapter-4",
         "id": "extraordinary-lives:4",
         "number": 4,
-        "minutes": 8
+        "minutes": 8,
+        "version": "0399adbae7cb",
+        "changeNote": "统一段落定位与资料阅读入口。",
+        "evidenceStatus": "沿用现有资料说明；本期尚未按新样板逐项复核。"
       },
       {
         "title": "自由，不能只写在一个人脸上",
@@ -243,7 +380,10 @@
         "original": "extraordinary-lives/index.html#chapter-5",
         "id": "extraordinary-lives:5",
         "number": 5,
-        "minutes": 8
+        "minutes": 8,
+        "version": "bf3346685577",
+        "changeNote": "统一段落定位与资料阅读入口。",
+        "evidenceStatus": "沿用现有资料说明；本期尚未按新样板逐项复核。"
       },
       {
         "title": "不推翻生活，怎样让它松动一点",
@@ -251,7 +391,10 @@
         "original": "extraordinary-lives/index.html#chapter-6",
         "id": "extraordinary-lives:6",
         "number": 6,
-        "minutes": 8
+        "minutes": 8,
+        "version": "ac4f957ceab0",
+        "changeNote": "统一段落定位与资料阅读入口。",
+        "evidenceStatus": "沿用现有资料说明；本期尚未按新样板逐项复核。"
       }
     ]
   },
@@ -260,70 +403,127 @@
     "title": "土星之环",
     "count": 8,
     "description": "8 期主题阅读",
+    "map": {
+      "core": "行走怎样让眼前风景与遥远历史相遇？",
+      "thread": "沿着观察、记忆、产业、物件、照片与他者的命运，辨认作品如何组织联想，也问自己的观看如何选择材料。",
+      "limits": "文学感受不直接构成社会统计或因果证据；叙述者与作者不能无条件等同。",
+      "output": "解释一次具体转场如何改变观看，容许一个暂时不能化为生活建议的感受。"
+    },
     "episodes": [
       {
         "title": "出去走走，为什么有时反而更忧伤？",
-        "question": "出去走走，为什么有时反而更忧伤？",
+        "question": "一次行走中，哪个细节让你改变了对一个地方的理解？",
         "original": "saturn/index.html#read/1",
         "id": "saturn:1",
         "number": 1,
-        "minutes": 8
+        "minutes": 7,
+        "evidence": [
+          {
+            "id": "L1",
+            "title": "塞巴尔德 · The Rings of Saturn 英文出版社试读",
+            "url": "https://cdn.penguin.co.uk/dam-assets/books/9780099448921/9780099448921-sample.pdf",
+            "location": "Michael Hulse英译，印刷第3～4页（PDF第14～15页），含窗户照片",
+            "support": "本次按页渲染核对开篇时间转换与图像位置；不重印原文或照片，不提供未经核对的中文译本页码。",
+            "checked": "2026-10-24"
+          },
+          {
+            "id": "L2",
+            "title": "New Directions · The Rings of Saturn",
+            "url": "https://www.ndbooks.com/book/the-rings-of-saturn/",
+            "location": "作品介绍，Fiction及narrator段",
+            "support": "只用于类型、照片和叙述者身份的出版社说明；不是对全部细读判断的背书。",
+            "checked": "2026-10-24"
+          },
+          {
+            "id": "L3",
+            "title": "Uwe Schütte · The Rings of Saturn (1995)",
+            "url": "https://www.cambridge.org/core/books/abs/wg-sebald/rings-of-saturn-1995/89C6D1ADB54E8AA1F600E348777624D4",
+            "location": "W.G. Sebald，第5章Summary，原书第72～87页；本次仅核读公开Summary",
+            "support": "用于步行材料的编排与文体讨论；不声称核读该研究章节全文。",
+            "checked": "2026-10-24"
+          }
+        ],
+        "evidenceStatus": "已按页核对英文出版社试读第3～4页；评论限该片段，外部研究限公开摘要。",
+        "changeNote": "由自拟关店故事主导，改为原书开篇的时间转换与窗户照片细读；自拟场景明确另列，保留文学异议。",
+        "edition": "2026-10-24 · 深读样板",
+        "version": "93cc5d400abe"
       },
       {
         "title": "一片风景，能藏住多少历史？",
-        "question": "一片风景，能藏住多少历史？",
+        "question": "你眼前的一处风景，有哪条历史联系已被证实、哪条仍是联想？",
         "original": "saturn/index.html#read/2",
         "id": "saturn:2",
         "number": 2,
-        "minutes": 7
+        "minutes": 7,
+        "version": "a94ce9c342b1",
+        "changeNote": "统一段落定位与资料阅读入口。",
+        "evidenceStatus": "沿用现有资料说明；本期尚未按新样板逐项复核。"
       },
       {
         "title": "繁荣过去以后，留下来的人怎么办？",
-        "question": "繁荣过去以后，留下来的人怎么办？",
+        "question": "你对一座衰落城市的理解里，是否留下了居民自己的生活？",
         "original": "saturn/index.html#read/3",
         "id": "saturn:3",
         "number": 3,
-        "minutes": 7
+        "minutes": 7,
+        "version": "6520bc8fab9a",
+        "changeNote": "统一段落定位与资料阅读入口。",
+        "evidenceStatus": "沿用现有资料说明；本期尚未按新样板逐项复核。"
       },
       {
         "title": "一件美好的东西，背后会有多少痛苦？",
-        "question": "一件美好的东西，背后会有多少痛苦？",
+        "question": "你欣赏的一件物品，制作与流通的代价由谁承担？",
         "original": "saturn/index.html#read/4",
         "id": "saturn:4",
         "number": 4,
-        "minutes": 7
+        "minutes": 7,
+        "version": "aa702c53fe7c",
+        "changeNote": "统一段落定位与资料阅读入口。",
+        "evidenceStatus": "沿用现有资料说明；本期尚未按新样板逐项复核。"
       },
       {
         "title": "照片留下了什么，又让什么消失了？",
-        "question": "照片留下了什么，又让什么消失了？",
+        "question": "你保留的一张照片，让你记住了什么，又无法告诉你什么？",
         "original": "saturn/index.html#read/5",
         "id": "saturn:5",
         "number": 5,
-        "minutes": 7
+        "minutes": 7,
+        "version": "35e01f7ffa44",
+        "changeNote": "统一段落定位与资料阅读入口。",
+        "evidenceStatus": "沿用现有资料说明；本期尚未按新样板逐项复核。"
       },
       {
         "title": "我们为什么会为陌生人的命运难过？",
-        "question": "我们为什么会为陌生人的命运难过？",
+        "question": "你怎样区分对陌生人的共情与替他讲一个自己喜欢的故事？",
         "original": "saturn/index.html#read/6",
         "id": "saturn:6",
         "number": 6,
-        "minutes": 7
+        "minutes": 7,
+        "version": "ad0f3c801e71",
+        "changeNote": "统一段落定位与资料阅读入口。",
+        "evidenceStatus": "沿用现有资料说明；本期尚未按新样板逐项复核。"
       },
       {
         "title": "把一切看成衰败，会不会也是一种偏见？",
-        "question": "把一切看成衰败，会不会也是一种偏见？",
+        "question": "面对同一地方，有什么证据能修正你关于衰败的判断？",
         "original": "saturn/index.html#read/7",
         "id": "saturn:7",
         "number": 7,
-        "minutes": 7
+        "minutes": 7,
+        "version": "1098abf6a40f",
+        "changeNote": "统一段落定位与资料阅读入口。",
+        "evidenceStatus": "沿用现有资料说明；本期尚未按新样板逐项复核。"
       },
       {
         "title": "留不住的东西，为什么还值得记录？",
-        "question": "留不住的东西，为什么还值得记录？",
+        "question": "你想记录的一个细节，为何值得保存，即使没有人生启示？",
         "original": "saturn/index.html#read/8",
         "id": "saturn:8",
         "number": 8,
-        "minutes": 7
+        "minutes": 7,
+        "version": "8984b14473e4",
+        "changeNote": "统一段落定位与资料阅读入口。",
+        "evidenceStatus": "沿用现有资料说明；本期尚未按新样板逐项复核。"
       }
     ]
   },
@@ -332,102 +532,144 @@
     "title": "日本历史与经济",
     "count": 12,
     "description": "12 期主题阅读",
+    "map": {
+      "core": "增长、制度与普通生活怎样相互塑造？",
+      "thread": "从江户积累、明治追赶与战争断裂，走向战后增长、企业、资产泡沫与长期调整。时间顺序不能代替因果机制。",
+      "limits": "不同世代、地区与阶层的经历不同；国家能力不等于个人福祉，日本经验不直接预言别国未来。",
+      "output": "选一段转型，说明初始条件、政策选择、获益者、代价承担者与替代解释。"
+    },
     "episodes": [
       {
         "title": "黑船来之前，日本已经准备好了吗？",
-        "question": "黑船来之前，日本已经准备好了吗？",
+        "question": "一项外部技术进入你熟悉的组织，需要哪些已有能力承接？",
         "original": "japan/index.html#read/1",
         "id": "japan:1",
         "number": 1,
-        "minutes": 8
+        "minutes": 8,
+        "version": "4ec1414834cf",
+        "changeNote": "统一段落定位与资料阅读入口。",
+        "evidenceStatus": "沿用现有资料说明；本期尚未按新样板逐项复核。"
       },
       {
         "title": "明治维新：谁为追赶付出了代价？",
-        "question": "明治维新：谁为追赶付出了代价？",
+        "question": "你熟悉的一次追赶，收益和转型代价分别落在谁身上？",
         "original": "japan/index.html#read/2",
         "id": "japan:2",
         "number": 2,
-        "minutes": 8
+        "minutes": 8,
+        "version": "dee2f1eae844",
+        "changeNote": "统一段落定位与资料阅读入口。",
+        "evidenceStatus": "沿用现有资料说明；本期尚未按新样板逐项复核。"
       },
       {
         "title": "从追赶到扩张：成功为什么没有阻止灾难？",
-        "question": "从追赶到扩张：成功为什么没有阻止灾难？",
+        "question": "一次被赞扬的成功，是否也在鼓励危险的继续扩张？",
         "original": "japan/index.html#read/3",
         "id": "japan:3",
         "number": 3,
-        "minutes": 8
+        "minutes": 8,
+        "version": "2e14b3dd4e51",
+        "changeNote": "统一段落定位与资料阅读入口。",
+        "evidenceStatus": "沿用现有资料说明；本期尚未按新样板逐项复核。"
       },
       {
         "title": "1945：当昨天相信的一切突然失效",
-        "question": "1945：当昨天相信的一切突然失效",
+        "question": "当原来的评价体系失效，哪些经验还可以保留？",
         "original": "japan/index.html#read/4",
         "id": "japan:4",
         "number": 4,
-        "minutes": 8
+        "minutes": 8,
+        "version": "6c6c9ecbb3f4",
+        "changeNote": "统一段落定位与资料阅读入口。",
+        "evidenceStatus": "沿用现有资料说明；本期尚未按新样板逐项复核。"
       },
       {
         "title": "经济奇迹，是谁创造的？",
-        "question": "经济奇迹，是谁创造的？",
+        "question": "你解释一次增长时，怎样区分个人努力与制度条件？",
         "original": "japan/index.html#read/5",
         "id": "japan:5",
         "number": 5,
-        "minutes": 8
+        "minutes": 8,
+        "version": "5bdb2aed815f",
+        "changeNote": "统一段落定位与资料阅读入口。",
+        "evidenceStatus": "沿用现有资料说明；本期尚未按新样板逐项复核。"
       },
       {
         "title": "公司能成为一个人的家吗？",
-        "question": "公司能成为一个人的家吗？",
+        "question": "组织为你提供归属时，你交换出了哪些选择权？",
         "original": "japan/index.html#read/6",
         "id": "japan:6",
         "number": 6,
-        "minutes": 8
+        "minutes": 8,
+        "version": "dd80bdab6579",
+        "changeNote": "统一段落定位与资料阅读入口。",
+        "evidenceStatus": "沿用现有资料说明；本期尚未按新样板逐项复核。"
       },
       {
         "title": "房子为什么会变成一种信仰？",
-        "question": "房子为什么会变成一种信仰？",
+        "question": "你对一种资产的信心，是来自现金流还是持续上涨的预期？",
         "original": "japan/index.html#read/7",
         "id": "japan:7",
         "number": 7,
-        "minutes": 8
+        "minutes": 8,
+        "version": "a7c5a2226d0d",
+        "changeNote": "统一段落定位与资料阅读入口。",
+        "evidenceStatus": "沿用现有资料说明；本期尚未按新样板逐项复核。"
       },
       {
         "title": "广场协议能解释一切吗？",
-        "question": "广场协议能解释一切吗？",
+        "question": "解释一次经济转折时，除了单一外部事件还有哪些条件？",
         "original": "japan/index.html#read/8",
         "id": "japan:8",
         "number": 8,
-        "minutes": 8
+        "minutes": 8,
+        "version": "3a510cebe33e",
+        "changeNote": "统一段落定位与资料阅读入口。",
+        "evidenceStatus": "沿用现有资料说明；本期尚未按新样板逐项复核。"
       },
       {
         "title": "为什么大家都在自救，经济却更难恢复？",
-        "question": "为什么大家都在自救，经济却更难恢复？",
+        "question": "你熟悉的一次集体自救，怎样影响别人的收入或机会？",
         "original": "japan/index.html#read/9",
         "id": "japan:9",
         "number": 9,
-        "minutes": 8
+        "minutes": 8,
+        "version": "d6f71d7be6dd",
+        "changeNote": "统一段落定位与资料阅读入口。",
+        "evidenceStatus": "沿用现有资料说明；本期尚未按新样板逐项复核。"
       },
       {
         "title": "一个人的毕业年份，能影响多久？",
-        "question": "一个人的毕业年份，能影响多久？",
+        "question": "你身边不同入行年份的人，遇到了哪些不同的起点？",
         "original": "japan/index.html#read/10",
         "id": "japan:10",
         "number": 10,
-        "minutes": 8
+        "minutes": 8,
+        "version": "97a1b5c31ca2",
+        "changeNote": "统一段落定位与资料阅读入口。",
+        "evidenceStatus": "沿用现有资料说明；本期尚未按新样板逐项复核。"
       },
       {
         "title": "“低欲望”是选择，还是适应？",
-        "question": "“低欲望”是选择，还是适应？",
+        "question": "你的一项少欲望，是主动取舍还是机会受限后的适应？",
         "original": "japan/index.html#read/11",
         "id": "japan:11",
         "number": 11,
-        "minutes": 8
+        "minutes": 8,
+        "version": "8726731c6300",
+        "changeNote": "统一段落定位与资料阅读入口。",
+        "evidenceStatus": "沿用现有资料说明；本期尚未按新样板逐项复核。"
       },
       {
         "title": "增长放慢以后，好生活还可能是什么？",
-        "question": "增长放慢以后，好生活还可能是什么？",
+        "question": "如果增长不再是唯一标准，你怎样具体描述好生活？",
         "original": "japan/index.html#read/12",
         "id": "japan:12",
         "number": 12,
-        "minutes": 9
+        "minutes": 9,
+        "version": "48e1c356bbee",
+        "changeNote": "统一段落定位与资料阅读入口。",
+        "evidenceStatus": "沿用现有资料说明；本期尚未按新样板逐项复核。"
       }
     ]
   },
@@ -436,102 +678,155 @@
     "title": "机器如何学会做事",
     "count": 12,
     "description": "12 期主题阅读",
+    "map": {
+      "core": "把行动交给模型以后，怎样判断事情真的完成？",
+      "thread": "从完成标准到控制权、工具、检索、记忆、重试、授权、评估、MCP与协作，把自主性和可验证性一起设计。",
+      "limits": "教学实验不代表生产效果；确定性模拟不等于真实模型，权限边界不能由模型口头承诺代替。",
+      "output": "做一次可复现对照，留下输入、执行轨迹、验收结果和失败原因。"
+    },
     "episodes": [
       {
         "title": "它说“已经完成”，事情就真的完成了吗？",
-        "question": "它说“已经完成”，事情就真的完成了吗？",
+        "question": "你的系统报告完成时，拿得出哪一份外部结果证据？",
         "original": "agent/index.html#deep-1",
         "id": "agent:1",
         "number": 1,
-        "minutes": 5
+        "minutes": 5,
+        "version": "aca6f0ce4280",
+        "changeNote": "统一段落定位与资料阅读入口。",
+        "evidenceStatus": "沿用现有资料说明；本期尚未按新样板逐项复核。"
       },
       {
         "title": "程序员为什么要把控制权交给模型？",
-        "question": "程序员为什么要把控制权交给模型？",
+        "question": "你正在做的任务中，哪一步值得动态决定，哪条边界必须写死？",
         "original": "agent/index.html#deep-2",
         "id": "agent:2",
         "number": 2,
-        "minutes": 5
+        "minutes": 9,
+        "evidence": [
+          {
+            "id": "A1",
+            "title": "Anthropic · Building effective agents",
+            "url": "https://www.anthropic.com/research/building-effective-agents",
+            "location": "2024-12-19；What are agents、When (and when not) to use agents",
+            "support": "架构区分及简单方案、成本延迟权衡的作者说明。本期实验、假资料、控制器与结论均为本站原创，不是该文的实验结果。",
+            "checked": "2026-10-24"
+          }
+        ],
+        "evidenceStatus": "核读原始工程文章相应两节；附带标准库模拟实验已运行，未将模拟包装成真实LLM评测。",
+        "changeNote": "补齐可运行脚本、10个任务、轨迹、权限与重复动作失败；明确固定流程与按需控制的比较边界。",
+        "edition": "2026-10-24 · 深读样板",
+        "version": "fb1f67780f15"
       },
       {
         "title": "一个循环，为什么会像是在思考？",
-        "question": "一个循环，为什么会像是在思考？",
+        "question": "你的执行循环靠什么反馈决定下一步，而不是重复同一步？",
         "original": "agent/index.html#deep-3",
         "id": "agent:3",
         "number": 3,
-        "minutes": 5
+        "minutes": 5,
+        "version": "dd649c95d788",
+        "changeNote": "统一段落定位与资料阅读入口。",
+        "evidenceStatus": "沿用现有资料说明；本期尚未按新样板逐项复核。"
       },
       {
         "title": "你给它的工具，真的容易用吗？",
-        "question": "你给它的工具，真的容易用吗？",
+        "question": "你的一项工具接口，最容易让模型误解哪个参数或结果？",
         "original": "agent/index.html#deep-4",
         "id": "agent:4",
         "number": 4,
-        "minutes": 5
+        "minutes": 5,
+        "version": "246c658a6d63",
+        "changeNote": "统一段落定位与资料阅读入口。",
+        "evidenceStatus": "沿用现有资料说明；本期尚未按新样板逐项复核。"
       },
       {
         "title": "能搜到资料，为什么仍然会答错？",
-        "question": "能搜到资料，为什么仍然会答错？",
+        "question": "一次检索失败，是找不到证据还是没有正确使用证据？",
         "original": "agent/index.html#deep-5",
         "id": "agent:5",
         "number": 5,
-        "minutes": 4
+        "minutes": 4,
+        "version": "6a51040fd6fe",
+        "changeNote": "统一段落定位与资料阅读入口。",
+        "evidenceStatus": "沿用现有资料说明；本期尚未按新样板逐项复核。"
       },
       {
         "title": "记得越多，就一定越聪明吗？",
-        "question": "记得越多，就一定越聪明吗？",
+        "question": "你会依据什么规则让记忆退出上下文？",
         "original": "agent/index.html#deep-6",
         "id": "agent:6",
         "number": 6,
-        "minutes": 4
+        "minutes": 4,
+        "version": "c89c017f139b",
+        "changeNote": "统一段落定位与资料阅读入口。",
+        "evidenceStatus": "沿用现有资料说明；本期尚未按新样板逐项复核。"
       },
       {
         "title": "失败以后，应该重试还是停下来？",
-        "question": "失败以后，应该重试还是停下来？",
+        "question": "你会怎样区分值得重试的暂时错误与应当停止的确定错误？",
         "original": "agent/index.html#deep-7",
         "id": "agent:7",
         "number": 7,
-        "minutes": 4
+        "minutes": 4,
+        "version": "e7fef5712d64",
+        "changeNote": "统一段落定位与资料阅读入口。",
+        "evidenceStatus": "沿用现有资料说明；本期尚未按新样板逐项复核。"
       },
       {
         "title": "“你帮我处理一下”，到底授权了什么？",
-        "question": "“你帮我处理一下”，到底授权了什么？",
+        "question": "一项模糊请求中，哪些动作需要另行明确授权？",
         "original": "agent/index.html#deep-8",
         "id": "agent:8",
         "number": 8,
-        "minutes": 4
+        "minutes": 4,
+        "version": "a9042fd9382d",
+        "changeNote": "统一段落定位与资料阅读入口。",
+        "evidenceStatus": "沿用现有资料说明；本期尚未按新样板逐项复核。"
       },
       {
         "title": "一次漂亮的演示，能证明它有用吗？",
-        "question": "一次漂亮的演示，能证明它有用吗？",
+        "question": "你的演示任务之外，还需要哪组失败样本验证系统价值？",
         "original": "agent/index.html#deep-9",
         "id": "agent:9",
         "number": 9,
-        "minutes": 4
+        "minutes": 4,
+        "version": "68acc009833c",
+        "changeNote": "统一段落定位与资料阅读入口。",
+        "evidenceStatus": "沿用现有资料说明；本期尚未按新样板逐项复核。"
       },
       {
         "title": "接上 MCP，就拥有智能了吗？",
-        "question": "接上 MCP，就拥有智能了吗？",
+        "question": "接入MCP以后，任务选择和结果验收仍由谁完成？",
         "original": "agent/index.html#deep-10",
         "id": "agent:10",
         "number": 10,
-        "minutes": 4
+        "minutes": 4,
+        "version": "ee5debc9cf38",
+        "changeNote": "统一段落定位与资料阅读入口。",
+        "evidenceStatus": "沿用现有资料说明；本期尚未按新样板逐项复核。"
       },
       {
         "title": "一个做不好，多找几个会好吗？",
-        "question": "一个做不好，多找几个会好吗？",
+        "question": "你希望增加的一个协作者，具体减少哪类错误，又引入什么成本？",
         "original": "agent/index.html#deep-11",
         "id": "agent:11",
         "number": 11,
-        "minutes": 4
+        "minutes": 4,
+        "version": "2f397e407ad1",
+        "changeNote": "统一段落定位与资料阅读入口。",
+        "evidenceStatus": "沿用现有资料说明；本期尚未按新样板逐项复核。"
       },
       {
         "title": "机器负责执行，人还要负责什么？",
-        "question": "机器负责执行，人还要负责什么？",
+        "question": "即使机器执行完全正确，你仍需承担哪一项判断责任？",
         "original": "agent/index.html#deep-12",
         "id": "agent:12",
         "number": 12,
-        "minutes": 5
+        "minutes": 5,
+        "version": "2ce8bb923d7a",
+        "changeNote": "统一段落定位与资料阅读入口。",
+        "evidenceStatus": "沿用现有资料说明；本期尚未按新样板逐项复核。"
       }
     ]
   },
@@ -540,70 +835,100 @@
     "title": "集异璧之大成",
     "count": 8,
     "description": "8 期主题阅读",
+    "map": {
+      "core": "符号、层次和自指如何连接到心智问题？",
+      "thread": "先区分执行与解释，追踪意义和层次转换，再面对不完备性、自组织、自我模型与体验的解释边界。",
+      "limits": "数学定理、机制模型、艺术类比和意识哲学不能互相充当证明。",
+      "output": "亲手完成一个小推导，说明它支持什么、尚未证明什么。"
+    },
     "episodes": [
       {
         "title": "当你打开自己的源代码，会在哪里找到“我”？",
-        "question": "当你打开自己的源代码，会在哪里找到“我”？",
+        "question": "你描述自己的一个标签，是怎样反过来影响行为的？",
         "original": "geb/index.html#reading",
         "id": "geb:1",
         "number": 1,
-        "minutes": 11
+        "minutes": 11,
+        "version": "bb66db02f3e8",
+        "changeNote": "统一段落定位与资料阅读入口。",
+        "evidenceStatus": "沿用现有资料说明；本期尚未按新样板逐项复核。"
       },
       {
         "title": "按规则做事，为什么不等于理解规则？",
-        "question": "按规则做事，为什么不等于理解规则？",
+        "question": "对一个反复失败的任务，你凭什么认为现有操作能达到目标？",
         "original": "geb/episode-02.html",
         "id": "geb:2",
         "number": 2,
-        "minutes": 9
+        "minutes": 9,
+        "version": "3855c2e5f42d",
+        "changeNote": "统一段落定位与资料阅读入口。",
+        "evidenceStatus": "沿用现有资料说明；本期尚未按新样板逐项复核。"
       },
       {
         "title": "意义究竟在符号里，还是在解释者那里？",
-        "question": "意义究竟在符号里，还是在解释者那里？",
+        "question": "你熟悉的一个符号，离开共享解释规则以后还剩下什么意义？",
         "original": "geb/episode-03.html",
         "id": "geb:3",
         "number": 3,
-        "minutes": 9
+        "minutes": 9,
+        "version": "92a06de8028c",
+        "changeNote": "统一段落定位与资料阅读入口。",
+        "evidenceStatus": "沿用现有资料说明；本期尚未按新样板逐项复核。"
       },
       {
         "title": "一段音乐、一幅画，怎样让层次发生纠缠？",
-        "question": "一段音乐、一幅画，怎样让层次发生纠缠？",
+        "question": "你能指出作品中一次层次转换，并说明它改变了什么吗？",
         "original": "geb/episode-04.html",
         "id": "geb:4",
         "number": 4,
-        "minutes": 9
+        "minutes": 9,
+        "version": "52f9629c5b0e",
+        "changeNote": "统一段落定位与资料阅读入口。",
+        "evidenceStatus": "沿用现有资料说明；本期尚未按新样板逐项复核。"
       },
       {
         "title": "数学怎样谈论自己，并遇到证明的边界？",
-        "question": "数学怎样谈论自己，并遇到证明的边界？",
+        "question": "你在使用一个数学结论时，是否越过了它的成立条件？",
         "original": "geb/episode-05.html",
         "id": "geb:5",
         "number": 5,
-        "minutes": 10
+        "minutes": 10,
+        "version": "b38e7acd039b",
+        "changeNote": "统一段落定位与资料阅读入口。",
+        "evidenceStatus": "沿用现有资料说明；本期尚未按新样板逐项复核。"
       },
       {
         "title": "没有总指挥，整体为什么还能表现得有目的？",
-        "question": "没有总指挥，整体为什么还能表现得有目的？",
+        "question": "一种没有总指挥的协调，是靠哪些局部反馈形成的？",
         "original": "geb/episode-06.html",
         "id": "geb:6",
         "number": 6,
-        "minutes": 9
+        "minutes": 9,
+        "version": "c4a9b11c9659",
+        "changeNote": "统一段落定位与资料阅读入口。",
+        "evidenceStatus": "沿用现有资料说明；本期尚未按新样板逐项复核。"
       },
       {
         "title": "当系统开始建立自己的模型，会发生什么？",
-        "question": "当系统开始建立自己的模型，会发生什么？",
+        "question": "一个系统对自己的描述，会怎样改变它接下来的选择？",
         "original": "geb/episode-07.html",
         "id": "geb:7",
         "number": 7,
-        "minutes": 10
+        "minutes": 10,
+        "version": "727ac1f30324",
+        "changeNote": "统一段落定位与资料阅读入口。",
+        "evidenceStatus": "沿用现有资料说明；本期尚未按新样板逐项复核。"
       },
       {
         "title": "解释了“我”的运作，是否就解释了“我”的体验？",
-        "question": "解释了“我”的运作，是否就解释了“我”的体验？",
+        "question": "解释了一种行为机制以后，还有哪类体验问题尚未回答？",
         "original": "geb/episode-08.html",
         "id": "geb:8",
         "number": 8,
-        "minutes": 11
+        "minutes": 11,
+        "version": "986701d0e418",
+        "changeNote": "统一段落定位与资料阅读入口。",
+        "evidenceStatus": "沿用现有资料说明；本期尚未按新样板逐项复核。"
       }
     ]
   },
@@ -612,6 +937,12 @@
     "title": "滔天洪水",
     "count": 1,
     "description": "现有完整导读 · 后续八期仅为阅读路线",
+    "map": {
+      "core": "为什么战争胜利不能自动换来持久和平？",
+      "thread": "当前完整材料是一篇导读：沿战债、信用和力量分配理解秩序困境。原版八期路线仍是待写选题。",
+      "limits": "导读不冒充八期完整正文；历史解释必须区分同期条件与事后判断。",
+      "output": "解释一种相互合法的诉求怎样形成无法自行化解的冲突。"
+    },
     "episodes": [
       {
         "title": "导读：为什么赢得战争，不等于赢得和平？",
@@ -619,7 +950,10 @@
         "original": "deluge/index.html#reading",
         "id": "deluge:1",
         "number": 1,
-        "minutes": 9
+        "minutes": 9,
+        "version": "174bce80350d",
+        "changeNote": "统一段落定位与资料阅读入口。",
+        "evidenceStatus": "沿用现有资料说明；本期尚未按新样板逐项复核。"
       }
     ]
   },
@@ -628,6 +962,12 @@
     "title": "崩盘",
     "count": 8,
     "description": "8 期主题阅读",
+    "map": {
+      "core": "为什么金融运行恢复，危机却仍留在生活里？",
+      "thread": "依次追踪危机误判、杠杆、美元融资、救援、国家风险、紧缩、投资债务与家庭和制度信任。",
+      "limits": "目录位置不是原书逐页核读；国家差异与可执行反事实不能被单一危机叙事抹平。",
+      "output": "用同一事件分别检查融资运行、家庭修复和公共责任三种评价标准。"
+    },
     "episodes": [
       {
         "title": "为什么看见了风险，却仍然预判错了危机？",
@@ -635,7 +975,10 @@
         "original": "crashed/01-wrong-crisis.html",
         "id": "crashed:1",
         "number": 1,
-        "minutes": 10
+        "minutes": 10,
+        "version": "84d8d4f7855c",
+        "changeNote": "统一段落定位与资料阅读入口。",
+        "evidenceStatus": "沿用现有资料说明；本期尚未按新样板逐项复核。"
       },
       {
         "title": "为什么一部分房贷坏账，会让整个金融系统失去信用？",
@@ -643,7 +986,10 @@
         "original": "crashed/02-small-loss-big-collapse.html",
         "id": "crashed:2",
         "number": 2,
-        "minutes": 9
+        "minutes": 9,
+        "version": "d74d5f121ed4",
+        "changeNote": "统一段落定位与资料阅读入口。",
+        "evidenceStatus": "沿用现有资料说明；本期尚未按新样板逐项复核。"
       },
       {
         "title": "为什么欧洲银行会在美国危机中缺美元？",
@@ -651,7 +997,10 @@
         "original": "crashed/03-europe-dollar-network.html",
         "id": "crashed:3",
         "number": 3,
-        "minutes": 11
+        "minutes": 11,
+        "version": "f1f5d8c48328",
+        "changeNote": "统一段落定位与资料阅读入口。",
+        "evidenceStatus": "沿用现有资料说明；本期尚未按新样板逐项复核。"
       },
       {
         "title": "没有世界央行，谁有能力阻止全球银行挤兑？",
@@ -659,7 +1008,10 @@
         "original": "crashed/04-who-can-rescue-world.html",
         "id": "crashed:4",
         "number": 4,
-        "minutes": 9
+        "minutes": 9,
+        "version": "b3db2a029a4f",
+        "changeNote": "统一段落定位与资料阅读入口。",
+        "evidenceStatus": "沿用现有资料说明；本期尚未按新样板逐项复核。"
       },
       {
         "title": "为什么救银行，最后会变成国家的债务危机？",
@@ -667,7 +1019,10 @@
         "original": "crashed/05-banks-and-states.html",
         "id": "crashed:5",
         "number": 5,
-        "minutes": 10
+        "minutes": 10,
+        "version": "6b4c6e288825",
+        "changeNote": "统一段落定位与资料阅读入口。",
+        "evidenceStatus": "沿用现有资料说明；本期尚未按新样板逐项复核。"
       },
       {
         "title": "为什么大家一起节省开支，债务反而可能更难还？",
@@ -675,7 +1030,10 @@
         "original": "crashed/06-austerity-paradox.html",
         "id": "crashed:6",
         "number": 6,
-        "minutes": 10
+        "minutes": 10,
+        "version": "a80d8fbedf52",
+        "changeNote": "统一段落定位与资料阅读入口。",
+        "evidenceStatus": "沿用现有资料说明；本期尚未按新样板逐项复核。"
       },
       {
         "title": "为什么一次有效的救急，也可能留下长期的债务问题？",
@@ -683,7 +1041,10 @@
         "original": "crashed/07-china-stimulus.html",
         "id": "crashed:7",
         "number": 7,
-        "minutes": 10
+        "minutes": 10,
+        "version": "9580cfb0cf8c",
+        "changeNote": "统一段落定位与资料阅读入口。",
+        "evidenceStatus": "沿用现有资料说明；本期尚未按新样板逐项复核。"
       },
       {
         "title": "为什么市场恢复了，人们却没有重新相信这个制度？",
@@ -691,7 +1052,10 @@
         "original": "crashed/08-recovery-and-trust.html",
         "id": "crashed:8",
         "number": 8,
-        "minutes": 11
+        "minutes": 11,
+        "version": "095069dff086",
+        "changeNote": "统一段落定位与资料阅读入口。",
+        "evidenceStatus": "沿用现有资料说明；本期尚未按新样板逐项复核。"
       }
     ]
   },
@@ -700,6 +1064,12 @@
     "title": "四千周",
     "count": 6,
     "description": "6 期主题阅读",
+    "map": {
+      "core": "有限时间中，想过的生活怎样真正发生？",
+      "thread": "从效率陷阱到取舍、分心、耐心、休息与共同时间，追问每次节省出的时间最终属于什么。",
+      "limits": "接受有限性不等于接受不公平；时间压力也可能来自资源不足与责任分配。",
+      "output": "保留一件重要事情的时间，同时说明为此暂时放下了什么。"
+    },
     "episodes": [
       {
         "title": "为什么越高效，越没有自己的时间？",
@@ -707,7 +1077,10 @@
         "original": "four-thousand-weeks/index.html#chapter-1",
         "id": "four-thousand-weeks:1",
         "number": 1,
-        "minutes": 12
+        "minutes": 12,
+        "version": "18fc52128c32",
+        "changeNote": "统一段落定位与资料阅读入口。",
+        "evidenceStatus": "沿用现有资料说明；本期尚未按新样板逐项复核。"
       },
       {
         "title": "为什么选择了重要的事，仍然会遗憾？",
@@ -715,7 +1088,10 @@
         "original": "four-thousand-weeks/index.html#chapter-2",
         "id": "four-thousand-weeks:2",
         "number": 2,
-        "minutes": 11
+        "minutes": 11,
+        "version": "0c5cf81bf671",
+        "changeNote": "统一段落定位与资料阅读入口。",
+        "evidenceStatus": "沿用现有资料说明；本期尚未按新样板逐项复核。"
       },
       {
         "title": "我在分心时，究竟在躲开什么？",
@@ -723,7 +1099,10 @@
         "original": "four-thousand-weeks/index.html#chapter-3",
         "id": "four-thousand-weeks:3",
         "number": 3,
-        "minutes": 11
+        "minutes": 11,
+        "version": "93dc58dec9e0",
+        "changeNote": "统一段落定位与资料阅读入口。",
+        "evidenceStatus": "沿用现有资料说明；本期尚未按新样板逐项复核。"
       },
       {
         "title": "耐心，是不是对时间的一种浪费？",
@@ -731,7 +1110,10 @@
         "original": "four-thousand-weeks/index.html#chapter-4",
         "id": "four-thousand-weeks:4",
         "number": 4,
-        "minutes": 12
+        "minutes": 12,
+        "version": "1a6c2448ef13",
+        "changeNote": "统一段落定位与资料阅读入口。",
+        "evidenceStatus": "沿用现有资料说明；本期尚未按新样板逐项复核。"
       },
       {
         "title": "如果休息没有用，它还值得吗？",
@@ -739,7 +1121,10 @@
         "original": "four-thousand-weeks/index.html#chapter-5",
         "id": "four-thousand-weeks:5",
         "number": 5,
-        "minutes": 11
+        "minutes": 11,
+        "version": "56cefc88025c",
+        "changeNote": "统一段落定位与资料阅读入口。",
+        "evidenceStatus": "沿用现有资料说明；本期尚未按新样板逐项复核。"
       },
       {
         "title": "完全由自己支配时间，为什么还不一定自由？",
@@ -747,7 +1132,10 @@
         "original": "four-thousand-weeks/index.html#chapter-6",
         "id": "four-thousand-weeks:6",
         "number": 6,
-        "minutes": 11
+        "minutes": 11,
+        "version": "bbbb137f3a85",
+        "changeNote": "统一段落定位与资料阅读入口。",
+        "evidenceStatus": "沿用现有资料说明；本期尚未按新样板逐项复核。"
       }
     ]
   }

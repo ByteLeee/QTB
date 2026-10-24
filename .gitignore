@@ -1,0 +1,5 @@
+# Built from content/themes; generated on Pages and local build.
+site/*/current-*.html
+site/*/guide.html
+site/downloads/*.txt
+__pycache__/
