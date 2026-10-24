@@ -17,7 +17,7 @@
         "original": "systems/index.html#/read/01",
         "id": "systems:1",
         "number": 1,
-        "minutes": 8,
+        "minutes": 7,
         "evidence": [
           {
             "id": "S1",
@@ -55,7 +55,12 @@
         "evidenceStatus": "核读基金会公开原书节选与作者文章，外部研究限作者摘要；全文原著未逐页核对。",
         "changeNote": "重新组织为一条项目叙事，将存量、返工口径、反馈、因果反例和可撤回实验融入正文；删除二次收尾。",
         "edition": "2026-10-24 · 深读样板",
-        "version": "2f13e9c56d3e"
+        "editorialReview": {
+          "argument": "项目报表的口径→待交付存量→返工反馈与延迟→可撤回的干预",
+          "boundary": "任务复杂度、外部依赖也可能造成延期；短期加班并非一概无效",
+          "sourceScope": "作者公开节选、署名文章与列明的外部研究；教学故事和数字不冒充原书案例。"
+        },
+        "version": "feaec0ee08a6"
       },
       {
         "title": "为什么我们总在问题爆发后，才发现早有征兆？",
@@ -64,20 +69,32 @@
         "id": "systems:2",
         "number": 2,
         "minutes": 7,
-        "version": "64c7c278cad9",
-        "changeNote": "统一段落定位与资料阅读入口。",
-        "evidenceStatus": "沿用现有资料说明；本期尚未按新样板逐项复核。"
+        "edition": "2026-10-24 · 连贯编修",
+        "changeNote": "将原正文与追加深读按因果顺序合编，移除中途预告与重复收束；推演检验折叠为可选资料，正文仅保留一条讲述线索。",
+        "evidenceStatus": "已编修论证顺序与叙述边界；资料说明列出可核范围，未将公开摘要或书目入口标成原书全文核读。",
+        "editorialReview": {
+          "argument": "流入流出之差决定存量→多类延迟→过度修正",
+          "boundary": "突然被发现不等于真正临界点；疲劳与信任不能冒充可精确计量的水位",
+          "sourceScope": "作者公开节选、署名文章与列明的外部研究；教学故事和数字不冒充原书案例。"
+        },
+        "version": "7d5c43aff040"
       },
       {
         "title": "为什么每个人都做了理性的选择，最后却得到荒谬的结果？",
-        "question": "一次各自合理却整体失效的选择，遗漏了谁能看到的信息？",
+        "question": "一次各自合理却整体失效的选择，主要出在信息不足还是利益冲突？你用什么证据区分？",
         "original": "systems/index.html#/read/03",
         "id": "systems:3",
         "number": 3,
-        "minutes": 7,
-        "version": "54613dd52a2c",
-        "changeNote": "统一段落定位与资料阅读入口。",
-        "evidenceStatus": "沿用现有资料说明；本期尚未按新样板逐项复核。"
+        "minutes": 6,
+        "edition": "2026-10-24 · 连贯编修",
+        "changeNote": "将原正文与追加深读按因果顺序合编，移除中途预告与重复收束；推演检验折叠为可选资料，正文仅保留一条讲述线索。",
+        "evidenceStatus": "已编修论证顺序与叙述边界；资料说明列出可核范围，未将公开摘要或书目入口标成原书全文核读。",
+        "editorialReview": {
+          "argument": "局部信息与激励→共享队列→外部性→治理条件",
+          "boundary": "信息不足和利益冲突需分别诊断；整体收益不能自动决定公平分配",
+          "sourceScope": "作者公开节选、署名文章与列明的外部研究；教学故事和数字不冒充原书案例。"
+        },
+        "version": "fdf7434ea50c"
       },
       {
         "title": "为什么规则越完善，人们反而越擅长钻空子？",
@@ -85,10 +102,16 @@
         "original": "systems/index.html#/read/04",
         "id": "systems:4",
         "number": 4,
-        "minutes": 7,
-        "version": "a48141787741",
-        "changeNote": "统一段落定位与资料阅读入口。",
-        "evidenceStatus": "沿用现有资料说明；本期尚未按新样板逐项复核。"
+        "minutes": 6,
+        "edition": "2026-10-24 · 连贯编修",
+        "changeNote": "将原正文与追加深读按因果顺序合编，移除中途预告与重复收束；推演检验折叠为可选资料，正文仅保留一条讲述线索。",
+        "evidenceStatus": "已编修论证顺序与叙述边界；资料说明列出可核范围，未将公开摘要或书目入口标成原书全文核读。",
+        "editorialReview": {
+          "argument": "指标代理目标→行为适应→采集与测试集例子→多种观察互相限制",
+          "boundary": "指标也能减少主观随意；不能把全部偏离都解释成作弊",
+          "sourceScope": "作者公开节选、署名文章与列明的外部研究；教学故事和数字不冒充原书案例。"
+        },
+        "version": "166d430fb9fd"
       },
       {
         "title": "为什么有些解决办法，最后会让我们越来越依赖它？",
@@ -96,10 +119,16 @@
         "original": "systems/index.html#/read/05",
         "id": "systems:5",
         "number": 5,
-        "minutes": 7,
-        "version": "52d59641e783",
-        "changeNote": "统一段落定位与资料阅读入口。",
-        "evidenceStatus": "沿用现有资料说明；本期尚未按新样板逐项复核。"
+        "minutes": 6,
+        "edition": "2026-10-24 · 连贯编修",
+        "changeNote": "将原正文与追加深读按因果顺序合编，移除中途预告与重复收束；推演检验折叠为可选资料，正文仅保留一条讲述线索。",
+        "evidenceStatus": "已编修论证顺序与叙述边界；资料说明列出可核范围，未将公开摘要或书目入口标成原书全文核读。",
+        "editorialReview": {
+          "argument": "救急占用改进时间→能力转移受阻→救火依赖加深",
+          "boundary": "及时恢复很重要；自动化也会产生新依赖，专家不能被无限要求额外带教",
+          "sourceScope": "作者公开节选、署名文章与列明的外部研究；教学故事和数字不冒充原书案例。"
+        },
+        "version": "61f2ca76cf1f"
       },
       {
         "title": "为什么好的竞争，最后常常演变成所有人的消耗？",
@@ -107,10 +136,16 @@
         "original": "systems/index.html#/read/06",
         "id": "systems:6",
         "number": 6,
-        "minutes": 7,
-        "version": "f090fc9104d8",
-        "changeNote": "统一段落定位与资料阅读入口。",
-        "evidenceStatus": "沿用现有资料说明；本期尚未按新样板逐项复核。"
+        "minutes": 6,
+        "edition": "2026-10-24 · 连贯编修",
+        "changeNote": "将原正文与追加深读按因果顺序合编，移除中途预告与重复收束；推演检验折叠为可选资料，正文仅保留一条讲述线索。",
+        "evidenceStatus": "已编修论证顺序与叙述边界；资料说明列出可核范围，未将公开摘要或书目入口标成原书全文核读。",
+        "editorialReview": {
+          "argument": "相对位置竞争→双方加码→收益矩阵→改变评价与协调",
+          "boundary": "有效竞争能创造价值；竞争者合作不能以消费者和局外人受损为代价",
+          "sourceScope": "作者公开节选、署名文章与列明的外部研究；教学故事和数字不冒充原书案例。"
+        },
+        "version": "2b985b537a43"
       },
       {
         "title": "如果只能改变一件事，究竟应该改变什么？",
@@ -118,10 +153,16 @@
         "original": "systems/index.html#/read/07",
         "id": "systems:7",
         "number": 7,
-        "minutes": 7,
-        "version": "6611c4e253ab",
-        "changeNote": "统一段落定位与资料阅读入口。",
-        "evidenceStatus": "沿用现有资料说明；本期尚未按新样板逐项复核。"
+        "minutes": 6,
+        "edition": "2026-10-24 · 连贯编修",
+        "changeNote": "将原正文与追加深读按因果顺序合编，移除中途预告与重复收束；推演检验折叠为可选资料，正文仅保留一条讲述线索。",
+        "evidenceStatus": "已编修论证顺序与叙述边界；资料说明列出可核范围，未将公开摘要或书目入口标成原书全文核读。",
+        "editorialReview": {
+          "argument": "同一搜索问题→参数、信息、规则、目标四种干预→权限与反馈比较",
+          "boundary": "干预层级不是无条件收益排行榜；深层改变也可能更难实施和验证",
+          "sourceScope": "作者公开节选、署名文章与列明的外部研究；教学故事和数字不冒充原书案例。"
+        },
+        "version": "936b7bdf6e1c"
       },
       {
         "title": "当世界复杂到无法掌控，我们该如何生活？",
@@ -130,9 +171,15 @@
         "id": "systems:8",
         "number": 8,
         "minutes": 7,
-        "version": "672bc68fb54d",
-        "changeNote": "统一段落定位与资料阅读入口。",
-        "evidenceStatus": "沿用现有资料说明；本期尚未按新样板逐项复核。"
+        "edition": "2026-10-24 · 连贯编修",
+        "changeNote": "将原正文与追加深读按因果顺序合编，移除中途预告与重复收束；推演检验折叠为可选资料，正文仅保留一条讲述线索。",
+        "evidenceStatus": "已编修论证顺序与叙述边界；资料说明列出可核范围，未将公开摘要或书目入口标成原书全文核读。",
+        "editorialReview": {
+          "argument": "模型有限→公开假设与修订条件→韧性、冗余与责任边界",
+          "boundary": "谦逊不免除行动责任；结构限制不能被重新压成个人心态任务",
+          "sourceScope": "作者公开节选、署名文章与列明的外部研究；教学故事和数字不冒充原书案例。"
+        },
+        "version": "b9fddb4ccd7a"
       }
     ]
   },
@@ -154,10 +201,16 @@
         "original": "antifragile/index.html#chapter-01",
         "id": "antifragile:1",
         "number": 1,
-        "minutes": 10,
-        "version": "2e525a6af268",
-        "changeNote": "统一段落定位与资料阅读入口。",
-        "evidenceStatus": "沿用现有资料说明；本期尚未按新样板逐项复核。"
+        "minutes": 9,
+        "edition": "2026-10-24 · 连贯编修",
+        "changeNote": "将原正文与追加深读按因果顺序合编，移除中途预告与重复收束；推演检验折叠为可选资料，正文仅保留一条讲述线索。",
+        "evidenceStatus": "已编修论证顺序与叙述边界；资料说明列出可核范围，未将公开摘要或书目入口标成原书全文核读。",
+        "editorialReview": {
+          "argument": "同等平均压力下的非线性损失→修复与遮蔽的区别→可推翻的观察",
+          "boundary": "刺激范围、恢复与损害承担者不可省略；系统获益不等于个体获益",
+          "sourceScope": "作者公开说明与相关论文、明确列出的工程参照；不把跨领域主张当作已获普遍实证支持。"
+        },
+        "version": "ed3418851596"
       },
       {
         "title": "为什么我们如此执着于预测未来？",
@@ -166,9 +219,15 @@
         "id": "antifragile:2",
         "number": 2,
         "minutes": 8,
-        "version": "072a4d571805",
-        "changeNote": "统一段落定位与资料阅读入口。",
-        "evidenceStatus": "沿用现有资料说明；本期尚未按新样板逐项复核。"
+        "edition": "2026-10-24 · 连贯编修",
+        "changeNote": "将原正文与追加深读按因果顺序合编，移除中途预告与重复收束；推演检验折叠为可选资料，正文仅保留一条讲述线索。",
+        "evidenceStatus": "已编修论证顺序与叙述边界；资料说明列出可核范围，未将公开摘要或书目入口标成原书全文核读。",
+        "editorialReview": {
+          "argument": "预测与暴露分开→概率乘后果→压力测试与失效条件",
+          "boundary": "稳定且可重复领域的预测仍有价值；正期望不能自动压过不可承受损失",
+          "sourceScope": "作者公开说明与相关论文、明确列出的工程参照；不把跨领域主张当作已获普遍实证支持。"
+        },
+        "version": "857295e7841c"
       },
       {
         "title": "为什么有些错误让人成长，有些却足以毁掉人生？",
@@ -176,10 +235,16 @@
         "original": "antifragile/index.html#chapter-03",
         "id": "antifragile:3",
         "number": 3,
-        "minutes": 8,
-        "version": "59c6c219d91c",
-        "changeNote": "统一段落定位与资料阅读入口。",
-        "evidenceStatus": "沿用现有资料说明；本期尚未按新样板逐项复核。"
+        "minutes": 7,
+        "edition": "2026-10-24 · 连贯编修",
+        "changeNote": "将原正文与追加深读按因果顺序合编，移除中途预告与重复收束；推演检验折叠为可选资料，正文仅保留一条讲述线索。",
+        "evidenceStatus": "已编修论证顺序与叙述边界；资料说明列出可核范围，未将公开摘要或书目入口标成原书全文核读。",
+        "editorialReview": {
+          "argument": "试错的损失容器→重复机会→学习反馈→幸存者筛选",
+          "boundary": "多次小错可累积成大损失；只有幸存者的成功故事不能估计试错收益",
+          "sourceScope": "作者公开说明与相关论文、明确列出的工程参照；不把跨领域主张当作已获普遍实证支持。"
+        },
+        "version": "e2482bb95262"
       },
       {
         "title": "面对不可预测的风险，我们该如何安排选择？",
@@ -187,10 +252,16 @@
         "original": "antifragile/index.html#chapter-04",
         "id": "antifragile:4",
         "number": 4,
-        "minutes": 8,
-        "version": "5d64f8b8e108",
-        "changeNote": "统一段落定位与资料阅读入口。",
-        "evidenceStatus": "沿用现有资料说明；本期尚未按新样板逐项复核。"
+        "minutes": 7,
+        "edition": "2026-10-24 · 连贯编修",
+        "changeNote": "将原正文与追加深读按因果顺序合编，移除中途预告与重复收束；推演检验折叠为可选资料，正文仅保留一条讲述线索。",
+        "evidenceStatus": "已编修论证顺序与叙述边界；资料说明列出可核范围，未将公开摘要或书目入口标成原书全文核读。",
+        "editorialReview": {
+          "argument": "有限下行与开放上行→选项成本→时间顺序→放弃选项的条件",
+          "boundary": "不对称收益不是固定比例处方；选项有维护费与到期风险",
+          "sourceScope": "作者公开说明与相关论文、明确列出的工程参照；不把跨领域主张当作已获普遍实证支持。"
+        },
+        "version": "2fdfed61c5ca"
       },
       {
         "title": "为什么越高效的生活，有时越不堪一击？",
@@ -198,10 +269,16 @@
         "original": "antifragile/index.html#chapter-05",
         "id": "antifragile:5",
         "number": 5,
-        "minutes": 8,
-        "version": "6abc9c30a6d5",
-        "changeNote": "统一段落定位与资料阅读入口。",
-        "evidenceStatus": "沿用现有资料说明；本期尚未按新样板逐项复核。"
+        "minutes": 7,
+        "edition": "2026-10-24 · 连贯编修",
+        "changeNote": "将原正文与追加深读按因果顺序合编，移除中途预告与重复收束；推演检验折叠为可选资料，正文仅保留一条讲述线索。",
+        "evidenceStatus": "已编修论证顺序与叙述边界；资料说明列出可核范围，未将公开摘要或书目入口标成原书全文核读。",
+        "editorialReview": {
+          "argument": "常态效率与中断代价→缓冲可用性→共同失效→复杂性反转",
+          "boundary": "多个副本共享同一故障源时并不独立；冗余也有成本",
+          "sourceScope": "作者公开说明与相关论文、明确列出的工程参照；不把跨领域主张当作已获普遍实证支持。"
+        },
+        "version": "771329f8dd7c"
       },
       {
         "title": "为什么我们总觉得必须做点什么？",
@@ -209,10 +286,16 @@
         "original": "antifragile/index.html#chapter-06",
         "id": "antifragile:6",
         "number": 6,
-        "minutes": 8,
-        "version": "3de53c274517",
-        "changeNote": "统一段落定位与资料阅读入口。",
-        "evidenceStatus": "沿用现有资料说明；本期尚未按新样板逐项复核。"
+        "minutes": 7,
+        "edition": "2026-10-24 · 连贯编修",
+        "changeNote": "将原正文与追加深读按因果顺序合编，移除中途预告与重复收束；推演检验折叠为可选资料，正文仅保留一条讲述线索。",
+        "evidenceStatus": "已编修论证顺序与叙述边界；资料说明列出可核范围，未将公开摘要或书目入口标成原书全文核读。",
+        "editorialReview": {
+          "argument": "干预和不干预都需反事实→动作副作用→退出条件",
+          "boundary": "克制不能变成对已知伤害的拖延；减法也需要举证",
+          "sourceScope": "作者公开说明与相关论文、明确列出的工程参照；不把跨领域主张当作已获普遍实证支持。"
+        },
+        "version": "e12b391ed9f8"
       },
       {
         "title": "谁有资格让别人承担风险？",
@@ -220,10 +303,16 @@
         "original": "antifragile/index.html#chapter-07",
         "id": "antifragile:7",
         "number": 7,
-        "minutes": 8,
-        "version": "9799cc272a6e",
-        "changeNote": "统一段落定位与资料阅读入口。",
-        "evidenceStatus": "沿用现有资料说明；本期尚未按新样板逐项复核。"
+        "minutes": 7,
+        "edition": "2026-10-24 · 连贯编修",
+        "changeNote": "将原正文与追加深读按因果顺序合编，移除中途预告与重复收束；推演检验折叠为可选资料，正文仅保留一条讲述线索。",
+        "evidenceStatus": "已编修论证顺序与叙述边界；资料说明列出可核范围，未将公开摘要或书目入口标成原书全文核读。",
+        "editorialReview": {
+          "argument": "收益与损失错位→风险共担→反馈延迟→责任追索",
+          "boundary": "风险共担不是充分条件；责任制度不能靠惩罚替代学习",
+          "sourceScope": "作者公开说明与相关论文、明确列出的工程参照；不把跨领域主张当作已获普遍实证支持。"
+        },
+        "version": "e4f4e0532344"
       },
       {
         "title": "我们真的应该追求反脆弱的人生吗？",
@@ -231,10 +320,16 @@
         "original": "antifragile/index.html#chapter-08",
         "id": "antifragile:8",
         "number": 8,
-        "minutes": 9,
-        "version": "4cb826e5f7b3",
-        "changeNote": "统一段落定位与资料阅读入口。",
-        "evidenceStatus": "沿用现有资料说明；本期尚未按新样板逐项复核。"
+        "minutes": 8,
+        "edition": "2026-10-24 · 连贯编修",
+        "changeNote": "将原正文与追加深读按因果顺序合编，移除中途预告与重复收束；推演检验折叠为可选资料，正文仅保留一条讲述线索。",
+        "evidenceStatus": "已编修论证顺序与叙述边界；资料说明列出可核范围，未将公开摘要或书目入口标成原书全文核读。",
+        "editorialReview": {
+          "argument": "局部响应性质→生存、适应与成长分层→保留不同意作者的条件",
+          "boundary": "生活不必每一部分都以成长为目标；创伤与稳定关系不能被浪漫化",
+          "sourceScope": "作者公开说明与相关论文、明确列出的工程参照；不把跨领域主张当作已获普遍实证支持。"
+        },
+        "version": "da068b632781"
       }
     ]
   },
@@ -256,8 +351,13 @@
         "original": "infinite-games/index.html#chapter-1",
         "id": "infinite-games:1",
         "number": 1,
-        "minutes": 13,
-        "version": "3d05a00f58c6",
+        "minutes": 12,
+        "editorialReview": {
+          "argument": "局部成就背负多种承诺→身份维护反馈→成果进入实际生活",
+          "boundary": "现实收入和职责不能被解释成精神境界不足",
+          "sourceScope": "沿用已有卡斯原著节次与扩展研究说明；本轮保留已连贯的正文，未将出版社入口冒充全书核读。"
+        },
+        "version": "482acdbf6a2a",
         "changeNote": "统一段落定位与资料阅读入口。",
         "evidenceStatus": "沿用现有资料说明；本期尚未按新样板逐项复核。"
       },
@@ -268,7 +368,12 @@
         "id": "infinite-games:2",
         "number": 2,
         "minutes": 11,
-        "version": "bd08a6498e87",
+        "editorialReview": {
+          "argument": "测量工具→资源分配→人格计分→谁有权定义规则",
+          "boundary": "指标也保护公平，纯粹凭感觉不自动更好",
+          "sourceScope": "沿用已有卡斯原著节次与扩展研究说明；本轮保留已连贯的正文，未将出版社入口冒充全书核读。"
+        },
+        "version": "3ad9886fa709",
         "changeNote": "统一段落定位与资料阅读入口。",
         "evidenceStatus": "沿用现有资料说明；本期尚未按新样板逐项复核。"
       },
@@ -278,8 +383,13 @@
         "original": "infinite-games/index.html#chapter-3",
         "id": "infinite-games:3",
         "number": 3,
-        "minutes": 11,
-        "version": "552076d4e921",
+        "minutes": 10,
+        "editorialReview": {
+          "argument": "争论胜负→信息与对话收缩→允许纠正的关系",
+          "boundary": "开放不能强迫他人持续坦露；公平也需要明确的裁决和结束",
+          "sourceScope": "沿用已有卡斯原著节次与扩展研究说明；本轮保留已连贯的正文，未将出版社入口冒充全书核读。"
+        },
+        "version": "fc6524c4bfec",
         "changeNote": "统一段落定位与资料阅读入口。",
         "evidenceStatus": "沿用现有资料说明；本期尚未按新样板逐项复核。"
       },
@@ -289,8 +399,13 @@
         "original": "infinite-games/index.html#chapter-4",
         "id": "infinite-games:4",
         "number": 4,
-        "minutes": 11,
-        "version": "93b6ae876c35",
+        "minutes": 10,
+        "editorialReview": {
+          "argument": "经验成为预测资源→身份威胁→允许新手与试探",
+          "boundary": "探索不是免除训练和责任；不学某事也是一种权利",
+          "sourceScope": "沿用已有卡斯原著节次与扩展研究说明；本轮保留已连贯的正文，未将出版社入口冒充全书核读。"
+        },
+        "version": "8ef71186e3a5",
         "changeNote": "统一段落定位与资料阅读入口。",
         "evidenceStatus": "沿用现有资料说明；本期尚未按新样板逐项复核。"
       },
@@ -300,8 +415,13 @@
         "original": "infinite-games/index.html#chapter-5",
         "id": "infinite-games:5",
         "number": 5,
-        "minutes": 12,
-        "version": "f029c61b2ea7",
+        "minutes": 11,
+        "editorialReview": {
+          "argument": "过去投入与未来理由分开→沉没成本→继续及退出条件",
+          "boundary": "不能总在困难时退出；既有资产和承诺仍有现实价值",
+          "sourceScope": "沿用已有卡斯原著节次与扩展研究说明；本轮保留已连贯的正文，未将出版社入口冒充全书核读。"
+        },
+        "version": "5e5146ce7aac",
         "changeNote": "统一段落定位与资料阅读入口。",
         "evidenceStatus": "沿用现有资料说明；本期尚未按新样板逐项复核。"
       },
@@ -311,8 +431,13 @@
         "original": "infinite-games/index.html#chapter-6",
         "id": "infinite-games:6",
         "number": 6,
-        "minutes": 13,
-        "version": "0751e2da9894",
+        "minutes": 12,
+        "editorialReview": {
+          "argument": "参与自愿与退出资源→有限规则保护长期参与→制度条件",
+          "boundary": "无限不等于永不停下；自由扩大不能把成本转给别人",
+          "sourceScope": "沿用已有卡斯原著节次与扩展研究说明；本轮保留已连贯的正文，未将出版社入口冒充全书核读。"
+        },
+        "version": "f3e5ef3184b0",
         "changeNote": "统一段落定位与资料阅读入口。",
         "evidenceStatus": "沿用现有资料说明；本期尚未按新样板逐项复核。"
       }
@@ -336,8 +461,13 @@
         "original": "extraordinary-lives/index.html#chapter-1",
         "id": "extraordinary-lives:1",
         "number": 1,
-        "minutes": 9,
-        "version": "9bd1513c1d61",
+        "minutes": 8,
+        "editorialReview": {
+          "argument": "把人生停在成名之前→当前劳动、关系和表达的价值",
+          "boundary": "承认价值不能否认收入、健康和现实条件需要改善",
+          "sourceScope": "作者一手访谈、明确列出的理论延伸；人物有限事实与本站虚构情境分开，未核人物内心不补写。"
+        },
+        "version": "5b0231902ce9",
         "changeNote": "统一段落定位与资料阅读入口。",
         "evidenceStatus": "沿用现有资料说明；本期尚未按新样板逐项复核。"
       },
@@ -347,8 +477,13 @@
         "original": "extraordinary-lives/index.html#chapter-2",
         "id": "extraordinary-lives:2",
         "number": 2,
-        "minutes": 9,
-        "version": "583066734869",
+        "minutes": 8,
+        "editorialReview": {
+          "argument": "职业身份拆成具体需要→活动之间的相互支撑",
+          "boundary": "多身份不能成为透支的新要求；照料和责任也可以被认同",
+          "sourceScope": "作者一手访谈、明确列出的理论延伸；人物有限事实与本站虚构情境分开，未核人物内心不补写。"
+        },
+        "version": "8d484146d98e",
         "changeNote": "统一段落定位与资料阅读入口。",
         "evidenceStatus": "沿用现有资料说明；本期尚未按新样板逐项复核。"
       },
@@ -359,7 +494,12 @@
         "id": "extraordinary-lives:3",
         "number": 3,
         "minutes": 8,
-        "version": "002855a1e87c",
+        "editorialReview": {
+          "argument": "离开组织时同时失去烦恼和支撑→依赖重组→现实排练",
+          "boundary": "自由不等于无依赖；留下也应是可以解释的选择",
+          "sourceScope": "作者一手访谈、明确列出的理论延伸；人物有限事实与本站虚构情境分开，未核人物内心不补写。"
+        },
+        "version": "967689ec3240",
         "changeNote": "统一段落定位与资料阅读入口。",
         "evidenceStatus": "沿用现有资料说明；本期尚未按新样板逐项复核。"
       },
@@ -369,8 +509,13 @@
         "original": "extraordinary-lives/index.html#chapter-4",
         "id": "extraordinary-lives:4",
         "number": 4,
-        "minutes": 8,
-        "version": "0399adbae7cb",
+        "minutes": 7,
+        "editorialReview": {
+          "argument": "特别人生的展示→无名观众→具体关系和经验",
+          "boundary": "没有观众不自动真实；表达和改变也有自己的价值",
+          "sourceScope": "作者一手访谈、明确列出的理论延伸；人物有限事实与本站虚构情境分开，未核人物内心不补写。"
+        },
+        "version": "7574c695f3a0",
         "changeNote": "统一段落定位与资料阅读入口。",
         "evidenceStatus": "沿用现有资料说明；本期尚未按新样板逐项复核。"
       },
@@ -381,7 +526,12 @@
         "id": "extraordinary-lives:5",
         "number": 5,
         "minutes": 8,
-        "version": "bf3346685577",
+        "editorialReview": {
+          "argument": "相同生活表象→可行选择与资源转化→公共条件",
+          "boundary": "幸福陈述不取消结构限制；一个人的自由不能以隐形劳动为代价",
+          "sourceScope": "作者一手访谈、明确列出的理论延伸；人物有限事实与本站虚构情境分开，未核人物内心不补写。"
+        },
+        "version": "7d1e7dffdf30",
         "changeNote": "统一段落定位与资料阅读入口。",
         "evidenceStatus": "沿用现有资料说明；本期尚未按新样板逐项复核。"
       },
@@ -392,7 +542,12 @@
         "id": "extraordinary-lives:6",
         "number": 6,
         "minutes": 8,
-        "version": "ac4f957ceab0",
+        "editorialReview": {
+          "argument": "愿望转成待验证问题→小尝试→不熟练、不喜欢与不适合分开",
+          "boundary": "尝试不应变成新绩效；两周实例不是对用户已完成实践的假定",
+          "sourceScope": "作者一手访谈、明确列出的理论延伸；人物有限事实与本站虚构情境分开，未核人物内心不补写。"
+        },
+        "version": "b4d60ba260f7",
         "changeNote": "统一段落定位与资料阅读入口。",
         "evidenceStatus": "沿用现有资料说明；本期尚未按新样板逐项复核。"
       }
@@ -416,7 +571,7 @@
         "original": "saturn/index.html#read/1",
         "id": "saturn:1",
         "number": 1,
-        "minutes": 7,
+        "minutes": 6,
         "evidence": [
           {
             "id": "L1",
@@ -446,7 +601,12 @@
         "evidenceStatus": "已按页核对英文出版社试读第3～4页；评论限该片段，外部研究限公开摘要。",
         "changeNote": "由自拟关店故事主导，改为原书开篇的时间转换与窗户照片细读；自拟场景明确另列，保留文学异议。",
         "edition": "2026-10-24 · 深读样板",
-        "version": "93cc5d400abe"
+        "editorialReview": {
+          "argument": "开篇步行与一年后病床的转场→观看范围与照片→感受和因果的分离",
+          "boundary": "细读限定公开片段；不把叙述者直接当作者，不诊断疾病原因",
+          "sourceScope": "第1、5、7期限定到正版英文试读开篇的具体页；其余为问题导读与列明的外部延伸，不冒称全文文学细读。"
+        },
+        "version": "e876ec8aa159"
       },
       {
         "title": "一片风景，能藏住多少历史？",
@@ -454,10 +614,16 @@
         "original": "saturn/index.html#read/2",
         "id": "saturn:2",
         "number": 2,
-        "minutes": 7,
-        "version": "a94ce9c342b1",
-        "changeNote": "统一段落定位与资料阅读入口。",
-        "evidenceStatus": "沿用现有资料说明；本期尚未按新样板逐项复核。"
+        "minutes": 6,
+        "edition": "2026-10-24 · 连贯编修",
+        "changeNote": "将原正文与追加深读按因果顺序合编，移除中途预告与重复收束；推演检验折叠为可选资料，正文仅保留一条讲述线索。 将可替换的软件类比改为记录、观看与叙述形式的分析，保留文学感受与尚未解决的张力。",
+        "evidenceStatus": "已编修论证顺序与叙述边界；资料说明列出可核范围，未将公开摘要或书目入口标成原书全文核读。",
+        "editorialReview": {
+          "argument": "眼前地貌→有日期的地图与档案→竞争解释→被保存和被遗漏的声音",
+          "boundary": "空白不证明不存在，漂亮不证明无辜，怀疑也不证明罪恶",
+          "sourceScope": "第1、5、7期限定到正版英文试读开篇的具体页；其余为问题导读与列明的外部延伸，不冒称全文文学细读。"
+        },
+        "version": "4304d99c64b4"
       },
       {
         "title": "繁荣过去以后，留下来的人怎么办？",
@@ -465,10 +631,16 @@
         "original": "saturn/index.html#read/3",
         "id": "saturn:3",
         "number": 3,
-        "minutes": 7,
-        "version": "6520bc8fab9a",
-        "changeNote": "统一段落定位与资料阅读入口。",
-        "evidenceStatus": "沿用现有资料说明；本期尚未按新样板逐项复核。"
+        "minutes": 6,
+        "edition": "2026-10-24 · 连贯编修",
+        "changeNote": "将原正文与追加深读按因果顺序合编，移除中途预告与重复收束；推演检验折叠为可选资料，正文仅保留一条讲述线索。 将可替换的软件类比改为记录、观看与叙述形式的分析，保留文学感受与尚未解决的张力。",
+        "evidenceStatus": "已编修论证顺序与叙述边界；资料说明列出可核范围，未将公开摘要或书目入口标成原书全文核读。",
+        "editorialReview": {
+          "argument": "衰落叙事→收入、关系与身份的多重损失→居民不同愿望",
+          "boundary": "净岗位数不代表原劳动者可进入；人物价值不能缩成新的市场用途",
+          "sourceScope": "第1、5、7期限定到正版英文试读开篇的具体页；其余为问题导读与列明的外部延伸，不冒称全文文学细读。"
+        },
+        "version": "72947a6e0048"
       },
       {
         "title": "一件美好的东西，背后会有多少痛苦？",
@@ -476,10 +648,16 @@
         "original": "saturn/index.html#read/4",
         "id": "saturn:4",
         "number": 4,
-        "minutes": 7,
-        "version": "aa702c53fe7c",
-        "changeNote": "统一段落定位与资料阅读入口。",
-        "evidenceStatus": "沿用现有资料说明；本期尚未按新样板逐项复核。"
+        "minutes": 6,
+        "edition": "2026-10-24 · 连贯编修",
+        "changeNote": "将原正文与追加深读按因果顺序合编，移除中途预告与重复收束；推演检验折叠为可选资料，正文仅保留一条讲述线索。 将可替换的软件类比改为记录、观看与叙述形式的分析，保留文学感受与尚未解决的张力。",
+        "evidenceStatus": "已编修论证顺序与叙述边界；资料说明列出可核范围，未将公开摘要或书目入口标成原书全文核读。",
+        "editorialReview": {
+          "argument": "物品的感官亲近→生产与流通关系→贡献、控制与责任分配",
+          "boundary": "文学并置不独自证明历史因果；消费者不可能承担全部调查责任",
+          "sourceScope": "第1、5、7期限定到正版英文试读开篇的具体页；其余为问题导读与列明的外部延伸，不冒称全文文学细读。"
+        },
+        "version": "13d9543f05f9"
       },
       {
         "title": "照片留下了什么，又让什么消失了？",
@@ -487,10 +665,16 @@
         "original": "saturn/index.html#read/5",
         "id": "saturn:5",
         "number": 5,
-        "minutes": 7,
-        "version": "35e01f7ffa44",
-        "changeNote": "统一段落定位与资料阅读入口。",
-        "evidenceStatus": "沿用现有资料说明；本期尚未按新样板逐项复核。"
+        "minutes": 6,
+        "edition": "2026-10-24 · 连贯编修",
+        "changeNote": "将原正文与追加深读按因果顺序合编，移除中途预告与重复收束；推演检验折叠为可选资料，正文仅保留一条讲述线索。 将可替换的软件类比改为记录、观看与叙述形式的分析，保留文学感受与尚未解决的张力。",
+        "evidenceStatus": "本期补充核对正版英文试读的具体片段，评论限定在标明的页码；其余史料和研究按原资料范围列明。",
+        "editorialReview": {
+          "argument": "正文先行与窗户照片的排列→画面、说明和读者观看",
+          "boundary": "可见空间不能证明全部感受；本次原书核对只到英文试读第4页",
+          "sourceScope": "第1、5、7期限定到正版英文试读开篇的具体页；其余为问题导读与列明的外部延伸，不冒称全文文学细读。"
+        },
+        "version": "f34c18f147cc"
       },
       {
         "title": "我们为什么会为陌生人的命运难过？",
@@ -498,10 +682,16 @@
         "original": "saturn/index.html#read/6",
         "id": "saturn:6",
         "number": 6,
-        "minutes": 7,
-        "version": "ad0f3c801e71",
-        "changeNote": "统一段落定位与资料阅读入口。",
-        "evidenceStatus": "沿用现有资料说明；本期尚未按新样板逐项复核。"
+        "minutes": 6,
+        "edition": "2026-10-24 · 连贯编修",
+        "changeNote": "将原正文与追加深读按因果顺序合编，移除中途预告与重复收束；推演检验折叠为可选资料，正文仅保留一条讲述线索。",
+        "evidenceStatus": "已编修论证顺序与叙述边界；资料说明列出可核范围，未将公开摘要或书目入口标成原书全文核读。",
+        "editorialReview": {
+          "argument": "细节引发共情→材料与推测分开→讲述与当事人纠正的空间",
+          "boundary": "感染力不证明真实性；同情不赋予讲述者占有人生的权利",
+          "sourceScope": "第1、5、7期限定到正版英文试读开篇的具体页；其余为问题导读与列明的外部延伸，不冒称全文文学细读。"
+        },
+        "version": "b6c5fff575ad"
       },
       {
         "title": "把一切看成衰败，会不会也是一种偏见？",
@@ -509,10 +699,16 @@
         "original": "saturn/index.html#read/7",
         "id": "saturn:7",
         "number": 7,
-        "minutes": 7,
-        "version": "1098abf6a40f",
-        "changeNote": "统一段落定位与资料阅读入口。",
-        "evidenceStatus": "沿用现有资料说明；本期尚未按新样板逐项复核。"
+        "minutes": 6,
+        "edition": "2026-10-24 · 连贯编修",
+        "changeNote": "将原正文与追加深读按因果顺序合编，移除中途预告与重复收束；推演检验折叠为可选资料，正文仅保留一条讲述线索。 将可替换的软件类比改为记录、观看与叙述形式的分析，保留文学感受与尚未解决的张力。",
+        "evidenceStatus": "本期补充核对正版英文试读的具体片段，评论限定在标明的页码；其余史料和研究按原资料范围列明。",
+        "editorialReview": {
+          "argument": "开篇不同感受并置→取景选择→自然流逝与人为伤害→修补反例",
+          "boundary": "局部揭示不能升级为排他世界观；批评需保留文本中的矛盾感受",
+          "sourceScope": "第1、5、7期限定到正版英文试读开篇的具体页；其余为问题导读与列明的外部延伸，不冒称全文文学细读。"
+        },
+        "version": "b244a7eef877"
       },
       {
         "title": "留不住的东西，为什么还值得记录？",
@@ -520,10 +716,16 @@
         "original": "saturn/index.html#read/8",
         "id": "saturn:8",
         "number": 8,
-        "minutes": 7,
-        "version": "8984b14473e4",
-        "changeNote": "统一段落定位与资料阅读入口。",
-        "evidenceStatus": "沿用现有资料说明；本期尚未按新样板逐项复核。"
+        "minutes": 6,
+        "edition": "2026-10-24 · 连贯编修",
+        "changeNote": "将原正文与追加深读按因果顺序合编，移除中途预告与重复收束；推演检验折叠为可选资料，正文仅保留一条讲述线索。 将可替换的软件类比改为记录、观看与叙述形式的分析，保留文学感受与尚未解决的张力。",
+        "evidenceStatus": "已编修论证顺序与叙述边界；资料说明列出可核范围，未将公开摘要或书目入口标成原书全文核读。",
+        "editorialReview": {
+          "argument": "保存不等于挽救→来源和背景→迟疑、选择与被记录者权利",
+          "boundary": "数量不等于意义；标准字段不能替代经验文字，记录也可能侵扰生活",
+          "sourceScope": "第1、5、7期限定到正版英文试读开篇的具体页；其余为问题导读与列明的外部延伸，不冒称全文文学细读。"
+        },
+        "version": "ba008f262039"
       }
     ]
   },
@@ -535,7 +737,7 @@
     "map": {
       "core": "增长、制度与普通生活怎样相互塑造？",
       "thread": "从江户积累、明治追赶与战争断裂，走向战后增长、企业、资产泡沫与长期调整。时间顺序不能代替因果机制。",
-      "limits": "不同世代、地区与阶层的经历不同；国家能力不等于个人福祉，日本经验不直接预言别国未来。",
+      "limits": "不同世代、地区与阶层的经历不同；国家能力不等于个人福祉，日本经验不直接预言别国未来。 原书章节可回查，研究摘要、作者演讲、出版社介绍分别标注；标题不能当作原书事实的逐句证据。",
       "output": "选一段转型，说明初始条件、政策选择、获益者、代价承担者与替代解释。"
     },
     "episodes": [
@@ -545,10 +747,16 @@
         "original": "japan/index.html#read/1",
         "id": "japan:1",
         "number": 1,
-        "minutes": 8,
-        "version": "4ec1414834cf",
-        "changeNote": "统一段落定位与资料阅读入口。",
-        "evidenceStatus": "沿用现有资料说明；本期尚未按新样板逐项复核。"
+        "minutes": 7,
+        "edition": "2026-10-24 · 连贯编修",
+        "changeNote": "将原正文与追加深读按因果顺序合编，移除中途预告与重复收束；推演检验折叠为可选资料，正文仅保留一条讲述线索。",
+        "evidenceStatus": "已编修论证顺序与叙述边界；资料说明列出可核范围，未将公开摘要或书目入口标成原书全文核读。",
+        "editorialReview": {
+          "argument": "外部冲击→江户积累→吸收网络→政治选择",
+          "boundary": "有准备不等于注定成功；国家不能等同等待升级的软件",
+          "sourceScope": "大野健一公开英文经济史的相关段落、央行与劳动研究资料；书目入口、作者视角和研究摘要单独标注。"
+        },
+        "version": "35f668eeb9c3"
       },
       {
         "title": "明治维新：谁为追赶付出了代价？",
@@ -556,10 +764,16 @@
         "original": "japan/index.html#read/2",
         "id": "japan:2",
         "number": 2,
-        "minutes": 8,
-        "version": "dee2f1eae844",
-        "changeNote": "统一段落定位与资料阅读入口。",
-        "evidenceStatus": "沿用现有资料说明；本期尚未按新样板逐项复核。"
+        "minutes": 7,
+        "edition": "2026-10-24 · 连贯编修",
+        "changeNote": "将原正文与追加深读按因果顺序合编，移除中途预告与重复收束；推演检验折叠为可选资料，正文仅保留一条讲述线索。",
+        "evidenceStatus": "已编修论证顺序与叙述边界；资料说明列出可核范围，未将公开摘要或书目入口标成原书全文核读。",
+        "editorialReview": {
+          "argument": "地税和国家能力→棉纺劳动→收益与代价的跨群体、跨代分配",
+          "boundary": "未来收益不能自动正当化当代牺牲；工业进步与劳动损害可以同时成立",
+          "sourceScope": "大野健一公开英文经济史的相关段落、央行与劳动研究资料；书目入口、作者视角和研究摘要单独标注。"
+        },
+        "version": "ab675f3c5cda"
       },
       {
         "title": "从追赶到扩张：成功为什么没有阻止灾难？",
@@ -567,10 +781,16 @@
         "original": "japan/index.html#read/3",
         "id": "japan:3",
         "number": 3,
-        "minutes": 8,
-        "version": "2e14b3dd4e51",
-        "changeNote": "统一段落定位与资料阅读入口。",
-        "evidenceStatus": "沿用现有资料说明；本期尚未按新样板逐项复核。"
+        "minutes": 7,
+        "edition": "2026-10-24 · 连贯编修",
+        "changeNote": "将原正文与追加深读按因果顺序合编，移除中途预告与重复收束；推演检验折叠为可选资料，正文仅保留一条讲述线索。",
+        "evidenceStatus": "已编修论证顺序与叙述边界；资料说明列出可核范围，未将公开摘要或书目入口标成原书全文核读。",
+        "editorialReview": {
+          "argument": "动员能力增长→扩张目标与成功反馈→沉没成本和责任",
+          "boundary": "技术能力不自动带来文明行为；解释战争机制不等于免责",
+          "sourceScope": "大野健一公开英文经济史的相关段落、央行与劳动研究资料；书目入口、作者视角和研究摘要单独标注。"
+        },
+        "version": "1e25f32b2b54"
       },
       {
         "title": "1945：当昨天相信的一切突然失效",
@@ -578,10 +798,16 @@
         "original": "japan/index.html#read/4",
         "id": "japan:4",
         "number": 4,
-        "minutes": 8,
-        "version": "6c6c9ecbb3f4",
-        "changeNote": "统一段落定位与资料阅读入口。",
-        "evidenceStatus": "沿用现有资料说明；本期尚未按新样板逐项复核。"
+        "minutes": 7,
+        "edition": "2026-10-24 · 连贯编修",
+        "changeNote": "将原正文与追加深读按因果顺序合编，移除中途预告与重复收束；推演检验折叠为可选资料，正文仅保留一条讲述线索。",
+        "evidenceStatus": "已编修论证顺序与叙述边界；资料说明列出可核范围，未将公开摘要或书目入口标成原书全文核读。",
+        "editorialReview": {
+          "argument": "战败断裂→日常生存与制度选择→旧经验延续→信任重建",
+          "boundary": "1945是时间点，生活恢复却有多重进度；不能用单一民族性解释重建",
+          "sourceScope": "大野健一公开英文经济史的相关段落、央行与劳动研究资料；书目入口、作者视角和研究摘要单独标注。"
+        },
+        "version": "15b69cf2ba10"
       },
       {
         "title": "经济奇迹，是谁创造的？",
@@ -589,10 +815,16 @@
         "original": "japan/index.html#read/5",
         "id": "japan:5",
         "number": 5,
-        "minutes": 8,
-        "version": "5bdb2aed815f",
-        "changeNote": "统一段落定位与资料阅读入口。",
-        "evidenceStatus": "沿用现有资料说明；本期尚未按新样板逐项复核。"
+        "minutes": 7,
+        "edition": "2026-10-24 · 连贯编修",
+        "changeNote": "将原正文与追加深读按因果顺序合编，移除中途预告与重复收束；推演检验折叠为可选资料，正文仅保留一条讲述线索。",
+        "evidenceStatus": "已编修论证顺序与叙述边界；资料说明列出可核范围，未将公开摘要或书目入口标成原书全文核读。",
+        "editorialReview": {
+          "argument": "生产能力→制度与国际条件→投入和效率→增长成本",
+          "boundary": "汽车业保护与企业拒绝合并倡议可并存；不能把增长全部归给政府或市场",
+          "sourceScope": "大野健一公开英文经济史的相关段落、央行与劳动研究资料；书目入口、作者视角和研究摘要单独标注。"
+        },
+        "version": "f40c263e5b58"
       },
       {
         "title": "公司能成为一个人的家吗？",
@@ -600,10 +832,16 @@
         "original": "japan/index.html#read/6",
         "id": "japan:6",
         "number": 6,
-        "minutes": 8,
-        "version": "dd80bdab6579",
-        "changeNote": "统一段落定位与资料阅读入口。",
-        "evidenceStatus": "沿用现有资料说明；本期尚未按新样板逐项复核。"
+        "minutes": 6,
+        "edition": "2026-10-24 · 连贯编修",
+        "changeNote": "将原正文与追加深读按因果顺序合编，移除中途预告与重复收束；推演检验折叠为可选资料，正文仅保留一条讲述线索。",
+        "evidenceStatus": "已编修论证顺序与叙述边界；资料说明列出可核范围，未将公开摘要或书目入口标成原书全文核读。",
+        "editorialReview": {
+          "argument": "长期关系换培训与稳定→覆盖差异→内部安全与外部流动",
+          "boundary": "长期雇佣不覆盖全部劳动者；正式岗位稳定可能将波动转给其他群体",
+          "sourceScope": "大野健一公开英文经济史的相关段落、央行与劳动研究资料；书目入口、作者视角和研究摘要单独标注。"
+        },
+        "version": "1286d341006b"
       },
       {
         "title": "房子为什么会变成一种信仰？",
@@ -611,10 +849,16 @@
         "original": "japan/index.html#read/7",
         "id": "japan:7",
         "number": 7,
-        "minutes": 8,
-        "version": "a7c5a2226d0d",
-        "changeNote": "统一段落定位与资料阅读入口。",
-        "evidenceStatus": "沿用现有资料说明；本期尚未按新样板逐项复核。"
+        "minutes": 7,
+        "edition": "2026-10-24 · 连贯编修",
+        "changeNote": "将原正文与追加深读按因果顺序合编，移除中途预告与重复收束；推演检验折叠为可选资料，正文仅保留一条讲述线索。",
+        "evidenceStatus": "已编修论证顺序与叙述边界；资料说明列出可核范围，未将公开摘要或书目入口标成原书全文核读。",
+        "editorialReview": {
+          "argument": "土地价格→抵押能力→信贷与需求→价格反馈",
+          "boundary": "结构性变化可解释部分上涨；不能从循环机制推导准确顶部",
+          "sourceScope": "大野健一公开英文经济史的相关段落、央行与劳动研究资料；书目入口、作者视角和研究摘要单独标注。"
+        },
+        "version": "d1cea53dd772"
       },
       {
         "title": "广场协议能解释一切吗？",
@@ -622,10 +866,16 @@
         "original": "japan/index.html#read/8",
         "id": "japan:8",
         "number": 8,
-        "minutes": 8,
-        "version": "3a510cebe33e",
-        "changeNote": "统一段落定位与资料阅读入口。",
-        "evidenceStatus": "沿用现有资料说明；本期尚未按新样板逐项复核。"
+        "minutes": 6,
+        "edition": "2026-10-24 · 连贯编修",
+        "changeNote": "将原正文与追加深读按因果顺序合编，移除中途预告与重复收束；推演检验折叠为可选资料，正文仅保留一条讲述线索。",
+        "evidenceStatus": "已编修论证顺序与叙述边界；资料说明列出可核范围，未将公开摘要或书目入口标成原书全文核读。",
+        "editorialReview": {
+          "argument": "广场协议→汇率、政策和金融结构→比较替代路径",
+          "boundary": "重要事件不等于充分原因；跨国类比需核对制度、人口和负债差异",
+          "sourceScope": "大野健一公开英文经济史的相关段落、央行与劳动研究资料；书目入口、作者视角和研究摘要单独标注。"
+        },
+        "version": "9de64eef2e0a"
       },
       {
         "title": "为什么大家都在自救，经济却更难恢复？",
@@ -633,10 +883,16 @@
         "original": "japan/index.html#read/9",
         "id": "japan:9",
         "number": 9,
-        "minutes": 8,
-        "version": "d6f71d7be6dd",
-        "changeNote": "统一段落定位与资料阅读入口。",
-        "evidenceStatus": "沿用现有资料说明；本期尚未按新样板逐项复核。"
+        "minutes": 7,
+        "edition": "2026-10-24 · 连贯编修",
+        "changeNote": "将原正文与追加深读按因果顺序合编，移除中途预告与重复收束；推演检验折叠为可选资料，正文仅保留一条讲述线索。",
+        "evidenceStatus": "已编修论证顺序与叙述边界；资料说明列出可核范围，未将公开摘要或书目入口标成原书全文核读。",
+        "editorialReview": {
+          "argument": "企业还债→他人收入→总需求反馈→银行与借款意愿分开",
+          "boundary": "资产负债表、通缩、银行不良资产等解释不能互相冒充或一概排除",
+          "sourceScope": "大野健一公开英文经济史的相关段落、央行与劳动研究资料；书目入口、作者视角和研究摘要单独标注。"
+        },
+        "version": "bdf08bd77f20"
       },
       {
         "title": "一个人的毕业年份，能影响多久？",
@@ -644,10 +900,16 @@
         "original": "japan/index.html#read/10",
         "id": "japan:10",
         "number": 10,
-        "minutes": 8,
-        "version": "97a1b5c31ca2",
-        "changeNote": "统一段落定位与资料阅读入口。",
-        "evidenceStatus": "沿用现有资料说明；本期尚未按新样板逐项复核。"
+        "minutes": 7,
+        "edition": "2026-10-24 · 连贯编修",
+        "changeNote": "将原正文与追加深读按因果顺序合编，移除中途预告与重复收束；推演检验折叠为可选资料，正文仅保留一条讲述线索。",
+        "evidenceStatus": "已编修论证顺序与叙述边界；资料说明列出可核范围，未将公开摘要或书目入口标成原书全文核读。",
+        "editorialReview": {
+          "argument": "毕业入口冲击→第一份岗位→履历筛选→长期机会差异",
+          "boundary": "代际平均效应不是个人命运判决；调查对象和毕业年份口径需明确",
+          "sourceScope": "大野健一公开英文经济史的相关段落、央行与劳动研究资料；书目入口、作者视角和研究摘要单独标注。"
+        },
+        "version": "0089bf6992cb"
       },
       {
         "title": "“低欲望”是选择，还是适应？",
@@ -655,10 +917,16 @@
         "original": "japan/index.html#read/11",
         "id": "japan:11",
         "number": 11,
-        "minutes": 8,
-        "version": "8726731c6300",
-        "changeNote": "统一段落定位与资料阅读入口。",
-        "evidenceStatus": "沿用现有资料说明；本期尚未按新样板逐项复核。"
+        "minutes": 7,
+        "edition": "2026-10-24 · 连贯编修",
+        "changeNote": "将原正文与追加深读按因果顺序合编，移除中途预告与重复收束；推演检验折叠为可选资料，正文仅保留一条讲述线索。",
+        "evidenceStatus": "已编修论证顺序与叙述边界；资料说明列出可核范围，未将公开摘要或书目入口标成原书全文核读。",
+        "editorialReview": {
+          "argument": "相同低消费行为→主动取舍或受限适应→调查与条件检验",
+          "boundary": "观察到的选择不等于自由偏好；简朴叙事不能免除公共责任",
+          "sourceScope": "大野健一公开英文经济史的相关段落、央行与劳动研究资料；书目入口、作者视角和研究摘要单独标注。"
+        },
+        "version": "1b8b1e4eff84"
       },
       {
         "title": "增长放慢以后，好生活还可能是什么？",
@@ -666,10 +934,16 @@
         "original": "japan/index.html#read/12",
         "id": "japan:12",
         "number": 12,
-        "minutes": 9,
-        "version": "48e1c356bbee",
-        "changeNote": "统一段落定位与资料阅读入口。",
-        "evidenceStatus": "沿用现有资料说明；本期尚未按新样板逐项复核。"
+        "minutes": 8,
+        "edition": "2026-10-24 · 连贯编修",
+        "changeNote": "将原正文与追加深读按因果顺序合编，移除中途预告与重复收束；推演检验折叠为可选资料，正文仅保留一条讲述线索。",
+        "evidenceStatus": "已编修论证顺序与叙述边界；资料说明列出可核范围，未将公开摘要或书目入口标成原书全文核读。",
+        "editorialReview": {
+          "argument": "总量、人均、分配与服务分别观察→个人适应与公共安排",
+          "boundary": "停滞不自动产生悠闲；增长有真实价值但不能包办好生活",
+          "sourceScope": "大野健一公开英文经济史的相关段落、央行与劳动研究资料；书目入口、作者视角和研究摘要单独标注。"
+        },
+        "version": "5895ead5cc7b"
       }
     ]
   },
@@ -677,11 +951,11 @@
     "id": "agent",
     "title": "机器如何学会做事",
     "count": 12,
-    "description": "12 期主题阅读",
+    "description": "12期工程问题阅读 · 配套可运行基础实验",
     "map": {
       "core": "把行动交给模型以后，怎样判断事情真的完成？",
       "thread": "从完成标准到控制权、工具、检索、记忆、重试、授权、评估、MCP与协作，把自主性和可验证性一起设计。",
-      "limits": "教学实验不代表生产效果；确定性模拟不等于真实模型，权限边界不能由模型口头承诺代替。",
+      "limits": "教学实验不代表生产效果；确定性模拟不等于真实模型，权限边界不能由模型口头承诺代替。 配套实验使用确定性模拟策略，不是模型能力排行榜；MCP实验按2025-11-25版本的最小子集实现，阅读时区分历史版本与现行文档。",
       "output": "做一次可复现对照，留下输入、执行轨迹、验收结果和失败原因。"
     },
     "episodes": [
@@ -692,9 +966,16 @@
         "id": "agent:1",
         "number": 1,
         "minutes": 5,
-        "version": "aca6f0ce4280",
-        "changeNote": "统一段落定位与资料阅读入口。",
-        "evidenceStatus": "沿用现有资料说明；本期尚未按新样板逐项复核。"
+        "edition": "2026-10-24 · 工程编修",
+        "changeNote": "补齐本期独立开场，保留论证与反例，补上下载脚本、输入、结果、失败边界与可修改任务。",
+        "evidenceStatus": "概念依据见原始论文或工程文章；配套基础设施实验已实跑，模拟决策不代表真实模型评测。",
+        "practiceMinutes": 20,
+        "editorialReview": {
+          "argument": "回复、调用和外部状态分开→先定义完成条件→写后回读",
+          "boundary": "存在文件不等于内容正确；内容评分仍需适配具体任务",
+          "sourceScope": "原始工程文章、论文与固定版本官方文档；十二个基础设施实验实跑，决策模拟与真实模型评测明确分开。"
+        },
+        "version": "5d416dbb010b"
       },
       {
         "title": "程序员为什么要把控制权交给模型？",
@@ -702,7 +983,7 @@
         "original": "agent/index.html#deep-2",
         "id": "agent:2",
         "number": 2,
-        "minutes": 9,
+        "minutes": 7,
         "evidence": [
           {
             "id": "A1",
@@ -716,7 +997,13 @@
         "evidenceStatus": "核读原始工程文章相应两节；附带标准库模拟实验已运行，未将模拟包装成真实LLM评测。",
         "changeNote": "补齐可运行脚本、10个任务、轨迹、权限与重复动作失败；明确固定流程与按需控制的比较边界。",
         "edition": "2026-10-24 · 深读样板",
-        "version": "fb1f67780f15"
+        "practiceMinutes": 20,
+        "editorialReview": {
+          "argument": "固定路径与动态决定→共同权限预算→轨迹与结果比较",
+          "boundary": "确定性策略使用已给定的required列表，不能证明真实模型自治收益",
+          "sourceScope": "原始工程文章、论文与固定版本官方文档；十二个基础设施实验实跑，决策模拟与真实模型评测明确分开。"
+        },
+        "version": "d8cd75a42c14"
       },
       {
         "title": "一个循环，为什么会像是在思考？",
@@ -725,9 +1012,16 @@
         "id": "agent:3",
         "number": 3,
         "minutes": 5,
-        "version": "dd649c95d788",
-        "changeNote": "统一段落定位与资料阅读入口。",
-        "evidenceStatus": "沿用现有资料说明；本期尚未按新样板逐项复核。"
+        "edition": "2026-10-24 · 工程编修",
+        "changeNote": "补齐本期独立开场，保留论证与反例，补上下载脚本、输入、结果、失败边界与可修改任务。",
+        "evidenceStatus": "概念依据见原始论文或工程文章；配套基础设施实验已实跑，模拟决策不代表真实模型评测。",
+        "practiceMinutes": 20,
+        "editorialReview": {
+          "argument": "新观察改变动作→显式结束→预算和重复动作控制",
+          "boundary": "多次循环不证明思考；预算停止不等于任务成功",
+          "sourceScope": "原始工程文章、论文与固定版本官方文档；十二个基础设施实验实跑，决策模拟与真实模型评测明确分开。"
+        },
+        "version": "9628a99557de"
       },
       {
         "title": "你给它的工具，真的容易用吗？",
@@ -736,9 +1030,16 @@
         "id": "agent:4",
         "number": 4,
         "minutes": 5,
-        "version": "246c658a6d63",
-        "changeNote": "统一段落定位与资料阅读入口。",
-        "evidenceStatus": "沿用现有资料说明；本期尚未按新样板逐项复核。"
+        "edition": "2026-10-24 · 工程编修",
+        "changeNote": "补齐本期独立开场，保留论证与反例，补上下载脚本、输入、结果、失败边界与可修改任务。",
+        "evidenceStatus": "概念依据见原始论文或工程文章；配套基础设施实验已实跑，模拟决策不代表真实模型评测。",
+        "practiceMinutes": 20,
+        "editorialReview": {
+          "argument": "工具契约→语法和语义校验→参数名与错误分类",
+          "boundary": "合法JSON仍可能越界或误解；夹具不能证明换描述后模型一定更好",
+          "sourceScope": "原始工程文章、论文与固定版本官方文档；十二个基础设施实验实跑，决策模拟与真实模型评测明确分开。"
+        },
+        "version": "bbe2a3a3f5d7"
       },
       {
         "title": "能搜到资料，为什么仍然会答错？",
@@ -747,9 +1048,16 @@
         "id": "agent:5",
         "number": 5,
         "minutes": 4,
-        "version": "6a51040fd6fe",
-        "changeNote": "统一段落定位与资料阅读入口。",
-        "evidenceStatus": "沿用现有资料说明；本期尚未按新样板逐项复核。"
+        "edition": "2026-10-24 · 工程编修",
+        "changeNote": "补齐本期独立开场，保留论证与反例，补上下载脚本、输入、结果、失败边界与可修改任务。",
+        "evidenceStatus": "概念依据见原始论文或工程文章；配套基础设施实验已实跑，模拟决策不代表真实模型评测。",
+        "practiceMinutes": 20,
+        "editorialReview": {
+          "argument": "相关资料→归属与证据支持→拒答、冲突与资料不足",
+          "boundary": "精确匹配实验不是通用语义蕴含模型；引用存在不等于引用支持结论",
+          "sourceScope": "原始工程文章、论文与固定版本官方文档；十二个基础设施实验实跑，决策模拟与真实模型评测明确分开。"
+        },
+        "version": "40dce9d99998"
       },
       {
         "title": "记得越多，就一定越聪明吗？",
@@ -758,9 +1066,16 @@
         "id": "agent:6",
         "number": 6,
         "minutes": 4,
-        "version": "c89c017f139b",
-        "changeNote": "统一段落定位与资料阅读入口。",
-        "evidenceStatus": "沿用现有资料说明；本期尚未按新样板逐项复核。"
+        "edition": "2026-10-24 · 工程编修",
+        "changeNote": "补齐本期独立开场，保留论证与反例，补上下载脚本、输入、结果、失败边界与可修改任务。",
+        "evidenceStatus": "概念依据见原始论文或工程文章；配套基础设施实验已实跑，模拟决策不代表真实模型评测。",
+        "practiceMinutes": 20,
+        "editorialReview": {
+          "argument": "任务相关性→摘要丢失→版本和权限失效→检查点",
+          "boundary": "更多记忆可能增加过期确信；摘要字段应由当前任务决定",
+          "sourceScope": "原始工程文章、论文与固定版本官方文档；十二个基础设施实验实跑，决策模拟与真实模型评测明确分开。"
+        },
+        "version": "5c782f773887"
       },
       {
         "title": "失败以后，应该重试还是停下来？",
@@ -769,9 +1084,16 @@
         "id": "agent:7",
         "number": 7,
         "minutes": 4,
-        "version": "e7fef5712d64",
-        "changeNote": "统一段落定位与资料阅读入口。",
-        "evidenceStatus": "沿用现有资料说明；本期尚未按新样板逐项复核。"
+        "edition": "2026-10-24 · 工程编修",
+        "changeNote": "补齐本期独立开场，保留论证与反例，补上下载脚本、输入、结果、失败边界与可修改任务。",
+        "evidenceStatus": "概念依据见原始论文或工程文章；配套基础设施实验已实跑，模拟决策不代表真实模型评测。",
+        "practiceMinutes": 20,
+        "editorialReview": {
+          "argument": "暂时失败、确定拒绝与未知提交分开→请求ID→恢复",
+          "boundary": "内存幂等示意不保证持久原子性；重试需保留原请求意图",
+          "sourceScope": "原始工程文章、论文与固定版本官方文档；十二个基础设施实验实跑，决策模拟与真实模型评测明确分开。"
+        },
+        "version": "aef87991a1a2"
       },
       {
         "title": "“你帮我处理一下”，到底授权了什么？",
@@ -780,9 +1102,16 @@
         "id": "agent:8",
         "number": 8,
         "minutes": 4,
-        "version": "a9042fd9382d",
-        "changeNote": "统一段落定位与资料阅读入口。",
-        "evidenceStatus": "沿用现有资料说明；本期尚未按新样板逐项复核。"
+        "edition": "2026-10-24 · 工程编修",
+        "changeNote": "补齐本期独立开场，保留论证与反例，补上下载脚本、输入、结果、失败边界与可修改任务。",
+        "evidenceStatus": "概念依据见原始论文或工程文章；配套基础设施实验已实跑，模拟决策不代表真实模型评测。",
+        "practiceMinutes": 20,
+        "editorialReview": {
+          "argument": "请求来源→动作范围→具体变化确认→执行前强制检查",
+          "boundary": "只读也可能有数据外发；五个夹具不是完整注入防御",
+          "sourceScope": "原始工程文章、论文与固定版本官方文档；十二个基础设施实验实跑，决策模拟与真实模型评测明确分开。"
+        },
+        "version": "65e52b7449b4"
       },
       {
         "title": "一次漂亮的演示，能证明它有用吗？",
@@ -791,9 +1120,16 @@
         "id": "agent:9",
         "number": 9,
         "minutes": 4,
-        "version": "68acc009833c",
-        "changeNote": "统一段落定位与资料阅读入口。",
-        "evidenceStatus": "沿用现有资料说明；本期尚未按新样板逐项复核。"
+        "edition": "2026-10-24 · 工程编修",
+        "changeNote": "补齐本期独立开场，保留论证与反例，补上下载脚本、输入、结果、失败边界与可修改任务。",
+        "evidenceStatus": "概念依据见原始论文或工程文章；配套基础设施实验已实跑，模拟决策不代表真实模型评测。",
+        "practiceMinutes": 20,
+        "editorialReview": {
+          "argument": "演示存在性→冻结评测集→结果与轨迹→失败类别",
+          "boundary": "四例通过率不代表总体可靠性；指标不能覆盖全部语义质量",
+          "sourceScope": "原始工程文章、论文与固定版本官方文档；十二个基础设施实验实跑，决策模拟与真实模型评测明确分开。"
+        },
+        "version": "33a205ff202d"
       },
       {
         "title": "接上 MCP，就拥有智能了吗？",
@@ -802,9 +1138,16 @@
         "id": "agent:10",
         "number": 10,
         "minutes": 4,
-        "version": "ee5debc9cf38",
-        "changeNote": "统一段落定位与资料阅读入口。",
-        "evidenceStatus": "沿用现有资料说明；本期尚未按新样板逐项复核。"
+        "edition": "2026-10-24 · 工程编修",
+        "changeNote": "补齐本期独立开场，保留论证与反例，补上下载脚本、输入、结果、失败边界与可修改任务。",
+        "evidenceStatus": "概念依据见原始论文或工程文章；配套基础设施实验已实跑，模拟决策不代表真实模型评测。",
+        "practiceMinutes": 20,
+        "editorialReview": {
+          "argument": "初始化、工具发现与调用→任务语义另验收",
+          "boundary": "真实stdio子集不等于完整MCP认证；历史版本不可冒充最新规范",
+          "sourceScope": "原始工程文章、论文与固定版本官方文档；十二个基础设施实验实跑，决策模拟与真实模型评测明确分开。"
+        },
+        "version": "6a62384a8189"
       },
       {
         "title": "一个做不好，多找几个会好吗？",
@@ -813,9 +1156,16 @@
         "id": "agent:11",
         "number": 11,
         "minutes": 4,
-        "version": "2f397e407ad1",
-        "changeNote": "统一段落定位与资料阅读入口。",
-        "evidenceStatus": "沿用现有资料说明；本期尚未按新样板逐项复核。"
+        "edition": "2026-10-24 · 工程编修",
+        "changeNote": "补齐本期独立开场，保留论证与反例，补上下载脚本、输入、结果、失败边界与可修改任务。",
+        "evidenceStatus": "概念依据见原始论文或工程文章；配套基础设施实验已实跑，模拟决策不代表真实模型评测。",
+        "practiceMinutes": 20,
+        "editorialReview": {
+          "argument": "分工收益与协调代价→相关错误→证据来源独立性",
+          "boundary": "票数不等于独立证据；模拟协作者不能测多Agent性能",
+          "sourceScope": "原始工程文章、论文与固定版本官方文档；十二个基础设施实验实跑，决策模拟与真实模型评测明确分开。"
+        },
+        "version": "2ed735f0b64c"
       },
       {
         "title": "机器负责执行，人还要负责什么？",
@@ -824,9 +1174,16 @@
         "id": "agent:12",
         "number": 12,
         "minutes": 5,
-        "version": "2ce8bb923d7a",
-        "changeNote": "统一段落定位与资料阅读入口。",
-        "evidenceStatus": "沿用现有资料说明；本期尚未按新样板逐项复核。"
+        "edition": "2026-10-24 · 工程编修",
+        "changeNote": "补齐本期独立开场，保留论证与反例，补上下载脚本、输入、结果、失败边界与可修改任务。",
+        "evidenceStatus": "概念依据见原始论文或工程文章；配套基础设施实验已实跑，模拟决策不代表真实模型评测。",
+        "practiceMinutes": 20,
+        "editorialReview": {
+          "argument": "任务目标→版本化交付→回读与证据→未解决问题",
+          "boundary": "哈希证明文件身份，不能证明报告事实真实或用户目标本身正确",
+          "sourceScope": "原始工程文章、论文与固定版本官方文档；十二个基础设施实验实跑，决策模拟与真实模型评测明确分开。"
+        },
+        "version": "191116f51f7f"
       }
     ]
   },
@@ -848,8 +1205,13 @@
         "original": "geb/index.html#reading",
         "id": "geb:1",
         "number": 1,
-        "minutes": 11,
-        "version": "bb66db02f3e8",
+        "minutes": 9,
+        "editorialReview": {
+          "argument": "零件与整体描述→自我模型反馈→证明、类比与解释三分",
+          "boundary": "能说我或能自述不等于有体验；不完备性不能直接证明人超越机器",
+          "sourceScope": "保留现有原著章节线索、数学与意识研究依据；数学证明、结构类比与关于心智的假说分别对待。"
+        },
+        "version": "59eedb325a83",
         "changeNote": "统一段落定位与资料阅读入口。",
         "evidenceStatus": "沿用现有资料说明；本期尚未按新样板逐项复核。"
       },
@@ -859,8 +1221,13 @@
         "original": "geb/episode-02.html",
         "id": "geb:2",
         "number": 2,
-        "minutes": 9,
-        "version": "3855c2e5f42d",
+        "minutes": 8,
+        "editorialReview": {
+          "argument": "MIU四规则→I数量模三不变量→目标不可达→系统内外区分",
+          "boundary": "不变量给出必要限制；有时找不到目标只是搜索尚浅，不能无条件类推",
+          "sourceScope": "保留现有原著章节线索、数学与意识研究依据；数学证明、结构类比与关于心智的假说分别对待。"
+        },
+        "version": "2e9094b67a8e",
         "changeNote": "统一段落定位与资料阅读入口。",
         "evidenceStatus": "沿用现有资料说明；本期尚未按新样板逐项复核。"
       },
@@ -870,8 +1237,13 @@
         "original": "geb/episode-03.html",
         "id": "geb:3",
         "number": 3,
-        "minutes": 9,
-        "version": "92a06de8028c",
+        "minutes": 8,
+        "editorialReview": {
+          "argument": "符号关系→解释约束→接地与使用后纠正",
+          "boundary": "可重新解释不代表任何解释都成立；映射仍须保持结构和使用条件",
+          "sourceScope": "保留现有原著章节线索、数学与意识研究依据；数学证明、结构类比与关于心智的假说分别对待。"
+        },
+        "version": "623d1c9d7918",
         "changeNote": "统一段落定位与资料阅读入口。",
         "evidenceStatus": "沿用现有资料说明；本期尚未按新样板逐项复核。"
       },
@@ -881,8 +1253,13 @@
         "original": "geb/episode-04.html",
         "id": "geb:4",
         "number": 4,
-        "minutes": 9,
-        "version": "52f9629c5b0e",
+        "minutes": 7,
+        "editorialReview": {
+          "argument": "递归、回路、自指分开→画与卡农的层次转换",
+          "boundary": "普通回路可完成很多任务；形式相似不自动解释心智",
+          "sourceScope": "保留现有原著章节线索、数学与意识研究依据；数学证明、结构类比与关于心智的假说分别对待。"
+        },
+        "version": "60bd1400f678",
         "changeNote": "统一段落定位与资料阅读入口。",
         "evidenceStatus": "沿用现有资料说明；本期尚未按新样板逐项复核。"
       },
@@ -892,8 +1269,13 @@
         "original": "geb/episode-05.html",
         "id": "geb:5",
         "number": 5,
-        "minutes": 10,
-        "version": "b38e7acd039b",
+        "minutes": 7,
+        "editorialReview": {
+          "argument": "真与可证分开→编码语法→自我指称→理论条件",
+          "boundary": "一致、有效公理化和算术表达条件不可省略；元层判断也非万能",
+          "sourceScope": "保留现有原著章节线索、数学与意识研究依据；数学证明、结构类比与关于心智的假说分别对待。"
+        },
+        "version": "74adccfa1127",
         "changeNote": "统一段落定位与资料阅读入口。",
         "evidenceStatus": "沿用现有资料说明；本期尚未按新样板逐项复核。"
       },
@@ -903,8 +1285,13 @@
         "original": "geb/episode-06.html",
         "id": "geb:6",
         "number": 6,
-        "minutes": 9,
-        "version": "c4a9b11c9659",
+        "minutes": 8,
+        "editorialReview": {
+          "argument": "局部规则→反馈产生整体模式→高层解释的可检验性",
+          "boundary": "相同规则也可制造拥堵；涌现不是因果解释的终点",
+          "sourceScope": "保留现有原著章节线索、数学与意识研究依据；数学证明、结构类比与关于心智的假说分别对待。"
+        },
+        "version": "74e6595a8e52",
         "changeNote": "统一段落定位与资料阅读入口。",
         "evidenceStatus": "沿用现有资料说明；本期尚未按新样板逐项复核。"
       },
@@ -914,8 +1301,13 @@
         "original": "geb/episode-07.html",
         "id": "geb:7",
         "number": 7,
-        "minutes": 10,
-        "version": "727ac1f30324",
+        "minutes": 8,
+        "editorialReview": {
+          "argument": "关于自身的模型→行动预测→观察误差→更新自身描述",
+          "boundary": "自我结构推断不证明主观体验；完整自我叙事不是一切行动的必要条件",
+          "sourceScope": "保留现有原著章节线索、数学与意识研究依据；数学证明、结构类比与关于心智的假说分别对待。"
+        },
+        "version": "697219db6cc7",
         "changeNote": "统一段落定位与资料阅读入口。",
         "evidenceStatus": "沿用现有资料说明；本期尚未按新样板逐项复核。"
       },
@@ -925,8 +1317,13 @@
         "original": "geb/episode-08.html",
         "id": "geb:8",
         "number": 8,
-        "minutes": 11,
-        "version": "986701d0e418",
+        "minutes": 9,
+        "editorialReview": {
+          "argument": "机制解释的强项→体验问题→中文房间与行为测试的相互压力",
+          "boundary": "行为表现与体验判定分开；反例不能代替进一步的正面证据",
+          "sourceScope": "保留现有原著章节线索、数学与意识研究依据；数学证明、结构类比与关于心智的假说分别对待。"
+        },
+        "version": "fcdfdff79a1a",
         "changeNote": "统一段落定位与资料阅读入口。",
         "evidenceStatus": "沿用现有资料说明；本期尚未按新样板逐项复核。"
       }
@@ -946,12 +1343,17 @@
     "episodes": [
       {
         "title": "导读：为什么赢得战争，不等于赢得和平？",
-        "question": "拥有力量，为什么仍可能无法建立持久的和平？",
+        "question": "一项你熟悉的合作承诺，资源、兑现能力和承担责任是否落在同一方？",
         "original": "deluge/index.html#reading",
         "id": "deluge:1",
         "number": 1,
-        "minutes": 9,
-        "version": "174bce80350d",
+        "minutes": 6,
+        "editorialReview": {
+          "argument": "战争胜利→债务和赔款相连→借款维系稳定→组织秩序的责任",
+          "boundary": "拥有力量不自动提供合作与持久制度；后续路线不能充当已写内容",
+          "sourceScope": "现有一篇导读；作者书籍说明与历史资料限定范围，八期路线不计为已完成正文。"
+        },
+        "version": "5bd7391c3369",
         "changeNote": "统一段落定位与资料阅读入口。",
         "evidenceStatus": "沿用现有资料说明；本期尚未按新样板逐项复核。"
       }
@@ -971,90 +1373,130 @@
     "episodes": [
       {
         "title": "为什么看见了风险，却仍然预判错了危机？",
-        "question": "我的理解、异议与待验证的问题",
+        "question": "我熟悉的一张汇总报表，可能净掉了哪两笔关键流量，怎样补回它们？",
         "original": "crashed/01-wrong-crisis.html",
         "id": "crashed:1",
         "number": 1,
-        "minutes": 10,
-        "version": "84d8d4f7855c",
-        "changeNote": "统一段落定位与资料阅读入口。",
+        "minutes": 6,
+        "changeNote": "保留已有机制、史料与国家差异辨析；将共用回答提示改为本期可运用的具体问题。",
+        "editorialReview": {
+          "argument": "净额与总头寸分开→机构、币种和期限→按时序检验解释",
+          "boundary": "外部失衡并非无用；方向正确不等于危机机制正确",
+          "sourceScope": "原著目录是阅读入口；作者公开论述与一手历史资料支持各自范围，未把外部研究冒充书中逐句观点。"
+        },
+        "version": "c3a29f472317",
         "evidenceStatus": "沿用现有资料说明；本期尚未按新样板逐项复核。"
       },
       {
         "title": "为什么一部分房贷坏账，会让整个金融系统失去信用？",
-        "question": "我的理解、异议与待验证的问题",
+        "question": "同一项资产损失，经过杠杆、抵押品和短期融资中的哪一环，会变成生存问题？",
         "original": "crashed/02-small-loss-big-collapse.html",
         "id": "crashed:2",
         "number": 2,
-        "minutes": 9,
-        "version": "d74d5f121ed4",
-        "changeNote": "统一段落定位与资料阅读入口。",
+        "minutes": 6,
+        "changeNote": "保留已有机制、史料与国家差异辨析；将共用回答提示改为本期可运用的具体问题。",
+        "editorialReview": {
+          "argument": "杠杆损失→抵押折扣→短期融资→挤兑传播",
+          "boundary": "教学账本不是原始金融数据；不同机构的脆弱环节不同",
+          "sourceScope": "原著目录是阅读入口；作者公开论述与一手历史资料支持各自范围，未把外部研究冒充书中逐句观点。"
+        },
+        "version": "0ecdde1a6169",
         "evidenceStatus": "沿用现有资料说明；本期尚未按新样板逐项复核。"
       },
       {
         "title": "为什么欧洲银行会在美国危机中缺美元？",
-        "question": "我的理解、异议与待验证的问题",
+        "question": "我研究的一家机构，资产币种、负债币种和到期时间中，哪一项最容易被总部所在地遮住？",
         "original": "crashed/03-europe-dollar-network.html",
         "id": "crashed:3",
         "number": 3,
-        "minutes": 11,
-        "version": "f1f5d8c48328",
-        "changeNote": "统一段落定位与资料阅读入口。",
+        "minutes": 7,
+        "changeNote": "保留已有机制、史料与国家差异辨析；将共用回答提示改为本期可运用的具体问题。",
+        "editorialReview": {
+          "argument": "机构全球资产负债表→美元融资错配→互换市场受压",
+          "boundary": "总部所在国不能概括融资币种；外汇兑换并非危机中的无成本替代",
+          "sourceScope": "原著目录是阅读入口；作者公开论述与一手历史资料支持各自范围，未把外部研究冒充书中逐句观点。"
+        },
+        "version": "7748d2a437f1",
         "evidenceStatus": "沿用现有资料说明；本期尚未按新样板逐项复核。"
       },
       {
         "title": "没有世界央行，谁有能力阻止全球银行挤兑？",
-        "question": "我的理解、异议与待验证的问题",
+        "question": "一项最后贷款人安排，谁能进入、谁承担信用风险、还有谁被留在门外？",
         "original": "crashed/04-who-can-rescue-world.html",
         "id": "crashed:4",
         "number": 4,
-        "minutes": 9,
-        "version": "b3db2a029a4f",
-        "changeNote": "统一段落定位与资料阅读入口。",
+        "minutes": 6,
+        "changeNote": "保留已有机制、史料与国家差异辨析；将共用回答提示改为本期可运用的具体问题。",
+        "editorialReview": {
+          "argument": "最后贷款人→2008互换安排→风险承担与进入资格",
+          "boundary": "流动性支持不等于免除信用损失；网络稳定与分配正当性分开",
+          "sourceScope": "原著目录是阅读入口；作者公开论述与一手历史资料支持各自范围，未把外部研究冒充书中逐句观点。"
+        },
+        "version": "73481c27bdda",
         "evidenceStatus": "沿用现有资料说明；本期尚未按新样板逐项复核。"
       },
       {
         "title": "为什么救银行，最后会变成国家的债务危机？",
-        "question": "我的理解、异议与待验证的问题",
+        "question": "同样被称为“国家债务问题”的两个案例，银行风险转移和原有财政问题分别占什么位置？",
         "original": "crashed/05-banks-and-states.html",
         "id": "crashed:5",
         "number": 5,
-        "minutes": 10,
-        "version": "6b4c6e288825",
-        "changeNote": "统一段落定位与资料阅读入口。",
+        "minutes": 6,
+        "changeNote": "保留已有机制、史料与国家差异辨析；将共用回答提示改为本期可运用的具体问题。",
+        "editorialReview": {
+          "argument": "银行担保→国家负担→银行持债回路→货币联盟制度",
+          "boundary": "爱尔兰与希腊起点不同；OMT承诺不是无条件财政担保",
+          "sourceScope": "原著目录是阅读入口；作者公开论述与一手历史资料支持各自范围，未把外部研究冒充书中逐句观点。"
+        },
+        "version": "70fe5b4ca7f4",
         "evidenceStatus": "沿用现有资料说明；本期尚未按新样板逐项复核。"
       },
       {
         "title": "为什么大家一起节省开支，债务反而可能更难还？",
-        "question": "我的理解、异议与待验证的问题",
+        "question": "一项节支判断默认了收入不变吗？如果没有这个条件，债务比率会怎样变化？",
         "original": "crashed/06-austerity-paradox.html",
         "id": "crashed:6",
         "number": 6,
-        "minutes": 10,
-        "version": "a80d8fbedf52",
-        "changeNote": "统一段落定位与资料阅读入口。",
+        "minutes": 6,
+        "changeNote": "保留已有机制、史料与国家差异辨析；将共用回答提示改为本期可运用的具体问题。",
+        "editorialReview": {
+          "argument": "一人的支出是他人收入→乘数→债务分母→政策条件",
+          "boundary": "家庭预算类比有适用范围；乘数不是跨国跨期固定常数",
+          "sourceScope": "原著目录是阅读入口；作者公开论述与一手历史资料支持各自范围，未把外部研究冒充书中逐句观点。"
+        },
+        "version": "d6683715daad",
         "evidenceStatus": "沿用现有资料说明；本期尚未按新样板逐项复核。"
       },
       {
         "title": "为什么一次有效的救急，也可能留下长期的债务问题？",
-        "question": "我的理解、异议与待验证的问题",
+        "question": "我熟悉的一项投资项目，社会收益、现金回款和偿债责任分别由谁获得或承担？",
         "original": "crashed/07-china-stimulus.html",
         "id": "crashed:7",
         "number": 7,
-        "minutes": 10,
-        "version": "9580cfb0cf8c",
-        "changeNote": "统一段落定位与资料阅读入口。",
+        "minutes": 6,
+        "changeNote": "保留已有机制、史料与国家差异辨析；将共用回答提示改为本期可运用的具体问题。",
+        "editorialReview": {
+          "argument": "刺激方案多种融资→项目社会收益与现金流分开→长期偿债",
+          "boundary": "救急效果与后续风险可同时成立；不能用四万亿代表单一付款主体",
+          "sourceScope": "原著目录是阅读入口；作者公开论述与一手历史资料支持各自范围，未把外部研究冒充书中逐句观点。"
+        },
+        "version": "c9b20f0a75bc",
         "evidenceStatus": "沿用现有资料说明；本期尚未按新样板逐项复核。"
       },
       {
         "title": "为什么市场恢复了，人们却没有重新相信这个制度？",
-        "question": "我的理解、异议与待验证的问题",
+        "question": "当我说一次危机已经结束时，用的是谁的资产、收入与制度信任作为判断依据？",
         "original": "crashed/08-recovery-and-trust.html",
         "id": "crashed:8",
         "number": 8,
-        "minutes": 11,
-        "version": "095069dff086",
-        "changeNote": "统一段落定位与资料阅读入口。",
+        "minutes": 7,
+        "changeNote": "保留已有机制、史料与国家差异辨析；将共用回答提示改为本期可运用的具体问题。",
+        "editorialReview": {
+          "argument": "市场恢复、家庭资产和制度信任分开→分配及程序→反事实",
+          "boundary": "危机与选举关联不等于单一因果；不救助的反事实也须计成本",
+          "sourceScope": "原著目录是阅读入口；作者公开论述与一手历史资料支持各自范围，未把外部研究冒充书中逐句观点。"
+        },
+        "version": "11e059dd9677",
         "evidenceStatus": "沿用现有资料说明；本期尚未按新样板逐项复核。"
       }
     ]
@@ -1077,8 +1519,13 @@
         "original": "four-thousand-weeks/index.html#chapter-1",
         "id": "four-thousand-weeks:1",
         "number": 1,
-        "minutes": 12,
-        "version": "18fc52128c32",
+        "minutes": 11,
+        "editorialReview": {
+          "argument": "开放输入→提效后新增要求→容量与收益分配",
+          "boundary": "效率确有价值；外部节律、任务有限时可真正腾出时间",
+          "sourceScope": "原书公开节选、作者署名解释及后续课程分别标注；外部哲学概念与本站模型不混作原书原话。"
+        },
+        "version": "519d440a2145",
         "changeNote": "统一段落定位与资料阅读入口。",
         "evidenceStatus": "沿用现有资料说明；本期尚未按新样板逐项复核。"
       },
@@ -1088,8 +1535,13 @@
         "original": "four-thousand-weeks/index.html#chapter-2",
         "id": "four-thousand-weeks:2",
         "number": 2,
-        "minutes": 11,
-        "version": "0c5cf81bf671",
+        "minutes": 10,
+        "editorialReview": {
+          "argument": "有限时间→机会成本→反事实遗憾→新信息与修订条件",
+          "boundary": "遗憾不总是选错；重要的新事实仍可能值得改变决定",
+          "sourceScope": "原书公开节选、作者署名解释及后续课程分别标注；外部哲学概念与本站模型不混作原书原话。"
+        },
+        "version": "f2664bf8ed87",
         "changeNote": "统一段落定位与资料阅读入口。",
         "evidenceStatus": "沿用现有资料说明；本期尚未按新样板逐项复核。"
       },
@@ -1099,8 +1551,13 @@
         "original": "four-thousand-weeks/index.html#chapter-3",
         "id": "four-thousand-weeks:3",
         "number": 3,
-        "minutes": 11,
-        "version": "93dc58dec9e0",
+        "minutes": 10,
+        "editorialReview": {
+          "argument": "分心诱因→难受与有限性→检验资料够不够",
+          "boundary": "不舒服不证明方向正确；结构负担与注意障碍不能统统解释成逃避",
+          "sourceScope": "原书公开节选、作者署名解释及后续课程分别标注；外部哲学概念与本站模型不混作原书原话。"
+        },
+        "version": "b0e2aa9099a8",
         "changeNote": "统一段落定位与资料阅读入口。",
         "evidenceStatus": "沿用现有资料说明；本期尚未按新样板逐项复核。"
       },
@@ -1110,8 +1567,13 @@
         "original": "four-thousand-weeks/index.html#chapter-4",
         "id": "four-thousand-weeks:4",
         "number": 4,
-        "minutes": 12,
-        "version": "1a6c2448ef13",
+        "minutes": 10,
+        "editorialReview": {
+          "argument": "观看与学习的展开时间→流程效率和经历本身分开",
+          "boundary": "耐心不能合理化已知伤害；三小时案例不是统一训练处方",
+          "sourceScope": "原书公开节选、作者署名解释及后续课程分别标注；外部哲学概念与本站模型不混作原书原话。"
+        },
+        "version": "19daf2414f5a",
         "changeNote": "统一段落定位与资料阅读入口。",
         "evidenceStatus": "沿用现有资料说明；本期尚未按新样板逐项复核。"
       },
@@ -1121,8 +1583,13 @@
         "original": "four-thousand-weeks/index.html#chapter-5",
         "id": "four-thousand-weeks:5",
         "number": 5,
-        "minutes": 11,
-        "version": "56cefc88025c",
+        "minutes": 10,
+        "editorialReview": {
+          "argument": "有终点与无终点活动→兴趣的工具化→当下价值",
+          "boundary": "照护等无终点责任也会疲惫；不能用过程价值要求人享受一切",
+          "sourceScope": "原书公开节选、作者署名解释及后续课程分别标注；外部哲学概念与本站模型不混作原书原话。"
+        },
+        "version": "bcc3fb1d3743",
         "changeNote": "统一段落定位与资料阅读入口。",
         "evidenceStatus": "沿用现有资料说明；本期尚未按新样板逐项复核。"
       },
@@ -1132,8 +1599,13 @@
         "original": "four-thousand-weeks/index.html#chapter-6",
         "id": "four-thousand-weeks:6",
         "number": 6,
-        "minutes": 11,
-        "version": "bbbb137f3a85",
+        "minutes": 10,
+        "editorialReview": {
+          "argument": "个人日历→共同窗口→承诺和照护成本→有限行动",
+          "boundary": "接受有限不等于默认不公；个人便利可能依赖他人一直留空",
+          "sourceScope": "原书公开节选、作者署名解释及后续课程分别标注；外部哲学概念与本站模型不混作原书原话。"
+        },
+        "version": "af86774dfbb1",
         "changeNote": "统一段落定位与资料阅读入口。",
         "evidenceStatus": "沿用现有资料说明；本期尚未按新样板逐项复核。"
       }

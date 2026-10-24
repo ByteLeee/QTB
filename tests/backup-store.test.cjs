@@ -1,0 +1,5 @@
+const {test}=require('node:test');const assert=require('node:assert/strict');
+const B=require('../site/backup-store.js');
+function storage(value,failAt=0){let calls=0;const map=new Map([['live',JSON.stringify(value)]]);return {getItem:k=>map.get(k)||null,setItem(k,v){if(++calls===failAt)throw Error('QuotaExceededError');map.set(k,v);}};}
+test('failed recovery or live writes leave the live record unchanged',()=>{for(const failAt of [1,2]){const old={note:'only copy'},s=storage(old,failAt);assert.throws(()=>B.replace(s,'live',old,{note:'incoming'}));assert.deepEqual(JSON.parse(s.getItem('live')),old);}});
+test('import and restore each retain their own recoverable pre-operation record',()=>{const old={note:'before import'},incoming={note:'merged newer answer'},s=storage(old);B.replace(s,'live',old,incoming);assert.deepEqual(B.read(s,'live'),old);B.replace(s,'live',incoming,B.read(s,'live'),'restore');assert.deepEqual(JSON.parse(s.getItem('live')),old);assert.deepEqual(B.read(s,'live','restore'),incoming);assert.deepEqual(B.read(s,'live'),old);});

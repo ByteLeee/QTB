@@ -4,12 +4,14 @@ from html import escape, unescape
 from html.parser import HTMLParser
 import json,re,hashlib
 ROOT=Path(__file__).resolve().parents[1];SITE=ROOT/'site';SOURCE=ROOT/'content/themes'
+REVIEW=json.loads((ROOT/'content/editorial-review.json').read_text())
+REVIEWS={row[0]:{'argument':row[1],'boundary':row[2],'sourceScope':theme['sourceScope']} for theme in REVIEW['themes'].values() for row in theme['episodes']}
 def slugtext(t):return unescape(re.sub('<[^>]+>','',t)).strip()
 class Narration(HTMLParser):
  def __init__(self,body):
   super().__init__();self.stack=[];self.parts=[];self.buf=[];self.capture=0;self.feed(body)
  def handle_starttag(self,tag,attrs):
-  d=dict(attrs);skip=(self.stack[-1][1] if self.stack else False) or bool(set(d.get('class','').split())&{'references','depth-sources','source-note','depth-note','inset'}) or 'data-no-speech' in d or d.get('id')=='sources'
+  d=dict(attrs);skip=(self.stack[-1][1] if self.stack else False) or bool(set(d.get('class','').split())&{'references','depth-sources','source-note','depth-note','source-list','supplement','inset'}) or 'data-no-speech' in d or d.get('id')=='sources'
   if tag not in ['br','hr','img','input','meta','link']:self.stack.append((tag,skip))
   if tag in ['h2','h3','p'] and not skip:self.capture+=1
  def handle_endtag(self,tag):
@@ -29,16 +31,20 @@ def enhance(body):
  body=re.sub(r'<input\b[^>]*>','',body,flags=re.I)
  ids=set(re.findall(r'\bid="([^"]+)"',body));body=re.sub(r'href="[^"#]*#([^"]+)"',lambda m:'href="#'+m[1]+'"' if m[1] in ids else m[0],body)
  # Make plain source markers in the migrated content usable in-place.
+ sourcelinks={}
  def source_id(m):
-  content=m[1];label=re.search(r'\[(S\d+)\]',content)
-  return '<li id="evidence-'+label[1]+'">'+content+'</li>' if label else m[0]
- body=re.sub(r'<li>(.*?)</li>',source_id,body,flags=re.S)
+  attrs,content=m.groups();label=re.search(r'\[(S\d+)\]',content)
+  if not label:return m[0]
+  existing=re.search(r'\bid="([^"]+)"',attrs);ident=existing[1] if existing else 'evidence-'+label[1]
+  sourcelinks[label[1]]=ident
+  return '<li'+attrs+('' if existing else ' id="'+ident+'"')+'>'+content+'</li>'
+ body=re.sub(r'<li([^>]*)>(.*?)</li>',source_id,body,flags=re.S)
  available=set(re.findall(r'\bid="([^"]+)"',body));parts=re.split(r'(<[^>]+>)',body);inside=0
  for i,part in enumerate(parts):
   if part.startswith('<a '):inside+=1
   elif part.startswith('</a'):inside=max(0,inside-1)
   elif not part.startswith('<') and not inside:
-   parts[i]=re.sub(r'\[(S\d+)\]',lambda m: '<a href="#evidence-'+m[1]+'">['+m[1]+']</a>' if 'evidence-'+m[1] in available else m[0],part)
+   parts[i]=re.sub(r'\[(S\d+)\]',lambda m: '<a href="#'+sourcelinks[m[1]]+'">['+m[1]+']</a>' if m[1] in sourcelinks else m[0],part)
  body=''.join(parts);body=re.sub(r'\*\*(.+?)\*\*',r'<strong>\1</strong>',body)
  counts={}
  def anchor(m):
@@ -51,10 +57,12 @@ for p in sorted(SOURCE.glob('*.json')):
  b=json.loads(p.read_text());episodes=b['episodes'];assert episodes
  for i,e in enumerate(episodes):
   assert e['id'] not in allids,e['id'];allids.add(e['id']);assert e['id'].startswith(b['id']+':')
+  assert e['id'] in REVIEWS,e['id'];e['editorialReview']=REVIEWS[e['id']]
   assert e.get('question') and len(e['body'])>1000
-  e['number']=i+1;e['version']=hashlib.sha256(e['body'].encode()).hexdigest()[:12];e['body']=enhance(e['body']);e['minutes']=max(1,round(len(slugtext(e['body']))/300));e.setdefault('changeNote','统一段落定位与资料阅读入口。')
+  e['number']=i+1;e['version']=hashlib.sha256(e['body'].encode()).hexdigest()[:12];e['body']=enhance(e['body']);e.setdefault('changeNote','统一段落定位与资料阅读入口。')
   e.setdefault('evidenceStatus','沿用现有资料说明；本期尚未按新样板逐项复核。')
   text='\n\n'.join(Narration(e['body']).parts)
+  e['minutes']=max(1,round(len(re.sub(r'\s','',text))/300))
   (SITE/'downloads'/f'{b["id"]}-{e["id"].split(":")[1]}.txt').write_text(e['title']+'\n\n'+text)
   # Plain, printable current edition; generated rather than hand-edited.
   printbody=re.sub(r'href="([^"]+)"',lambda m: m[0] if m[1].startswith(('https:','http:','#','mailto:')) else 'href="../'+m[1]+'"',e['body'])
@@ -68,3 +76,4 @@ for p in sorted(SOURCE.glob('*.json')):
 order=['systems','antifragile','infinite-games','extraordinary-lives','saturn','japan','agent','geb','deluge','crashed','four-thousand-weeks'];books.sort(key=lambda b:order.index(b['id']))
 (SITE/'reading-data/catalog.json').write_text(json.dumps(books,ensure_ascii=False,indent=2))
 print(f'Built {len(books)} themes / {len(allids)} permanent reading identities')
+assert set(REVIEWS)==allids,'Editorial review must cover exactly the published units'

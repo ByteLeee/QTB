@@ -65,6 +65,8 @@ def main():
  loop=run(CASES[0],lambda o:{'action':'read','document':'hours'})
  assert not loop['pass']
  assert len(rows)==10
+ if not all(row['fixed']['pass'] and row['adaptive']['pass'] for row in rows):
+  raise SystemExit('One or more task checks failed; inspect the trace before claiming success.')
  if args.output:
   with open(args.output,'w',encoding='utf-8') as f:json.dump({'simulation':True,'rows':rows,'scope_test':attack,'loop_test':loop},f,ensure_ascii=False,indent=2)
  print('Scope and repeated-action rejection checks: PASS')

@@ -23,7 +23,9 @@ jobs:
       - name: Validate reading system
         run: node --test tests/*.test.cjs
       - name: Run reproducible engineering lab
-        run: python3 site/downloads/agent-control-experiment.py
+        run: |
+          python3 site/downloads/agent-control-experiment.py
+          python3 site/downloads/agent-reading-labs.py --all
       - name: Validate content identities and links
         run: python3 scripts/validate-reading-content.py
       - name: Configure Pages
