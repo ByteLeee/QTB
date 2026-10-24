@@ -7,7 +7,7 @@ function normalize(raw,catalog){
  const s=blank();if(!raw||raw.version!==1||typeof raw!=='object')return s;
  const ids=new Set(catalog.flatMap(b=>b.episodes.map(e=>e.id)));
  for(const b of catalog){const v=raw.books?.[b.id];if(statuses.includes(v?.status))s.books[b.id]={status:v.status};}
- for(const id of ids){const e=raw.episodes?.[id];if(!e||typeof e!=='object')continue;s.episodes[id]={done:e.done===true,note:typeof e.note==='string'?e.note.slice(0,100000):'',position:Math.max(0,Math.min(1,Number(e.position)||0)),updated:typeof e.updated==='string'?e.updated:''};}
+ for(const id of ids){const e=raw.episodes?.[id];if(!e||typeof e!=='object')continue;s.episodes[id]={done:e.done===true,note:typeof e.note==='string'?e.note.slice(0,100000):'',history:Array.isArray(e.history)?e.history.filter(x=>typeof x.note==='string').slice(-50):[],position:Math.max(0,Math.min(1,Number(e.position)||0)),updated:typeof e.updated==='string'?e.updated:''};}
  s.goal=[1,2,3,4,5].includes(raw.goal)?raw.goal:3;
  if(ids.has(raw.last?.id))s.last={id:raw.last.id,at:typeof raw.last.at==='string'?raw.last.at:''};
  if(typeof raw.week?.key==='string'&&Array.isArray(raw.week.ids))s.week={key:raw.week.key,ids:[...new Set(raw.week.ids)].filter(id=>ids.has(id)).slice(0,5)};
@@ -39,5 +39,17 @@ function migrateLegacy(s,books,storage){
  }
  return s;
 }
-const api={KEY,blank,normalize,weekKey,plan,complete,migrateLegacy};root.QTB=api;if(typeof module!=='undefined')module.exports=api;
+function mergeBackup(current,incoming,catalog){
+ const a=normalize(current,catalog),b=normalize(incoming,catalog);let conflicts=0,added=0;
+ for(const [id,e] of Object.entries(b.episodes)){const old=a.episodes[id];if(!old){a.episodes[id]=e;added++;continue;}
+ const both=old.note&&e.note&&old.note!==e.note;const newer=(e.updated||'')>(old.updated||'');const selected=newer?e:old,other=newer?old:e;
+ const history=[...(old.history||[]),...(e.history||[])];if(both){conflicts++;history.push({note:other.note,updated:other.updated||'',reason:'导入冲突保留'});}
+ a.episodes[id]={...selected,done:old.done||e.done,history:history.filter((x,i,all)=>all.findIndex(y=>y.note===x.note&&y.updated===x.updated)===i).slice(-50)};
+ }
+ for(const [id,v] of Object.entries(b.books))if(!a.books[id])a.books[id]=v;
+ return {state:a,conflicts,added};
+}
+function setStatus(s,id,status){if(statuses.includes(status))s.books[id]={status};s.week=null;}
+function recordAnswer(s,id,note){const old=s.episodes[id]||{};const history=[...(old.history||[])];if(old.note&&old.note!==note)history.push({note:old.note,updated:old.updated||'',reason:'修改前回答'});s.episodes[id]={...old,note,updated:new Date().toISOString(),history:history.slice(-50)};}
+const api={KEY,blank,normalize,weekKey,plan,complete,migrateLegacy,mergeBackup,setStatus,recordAnswer};root.QTB=api;if(typeof module!=='undefined')module.exports=api;
 })(typeof window==='undefined'?globalThis:window);

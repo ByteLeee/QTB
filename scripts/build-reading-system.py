@@ -43,11 +43,14 @@ def clean(body,base):
   if re.match(r'^(https?:|mailto:|data:)',v):return m[0]
   from urllib.parse import urljoin
   return m[1]+'"'+urljoin(base,v)+'"'
+ body=re.sub(r'<input\b[^>]*>|<label\b[^>]*>.*?</label>', '', body, flags=re.S)
  return re.sub(r'(href=)"([^"]+)"',link,body)
 def dynamic(slug):
  p=SITE/slug/'content.js'
  code="const fs=require('fs'),vm=require('vm');const ctx={window:{}};vm.createContext(ctx);vm.runInContext(fs.readFileSync(process.argv[1],'utf8')+';globalThis.RESULT=chapters;',ctx);process.stdout.write(JSON.stringify(ctx.RESULT));"
  return json.loads(subprocess.check_output(['node','-e',code,str(p)]))
+identity_path=ROOT/'scripts/reading-identities.json'
+identities=json.loads(identity_path.read_text()) if identity_path.exists() else {}
 books=[]
 names={'systems':'系统之美','antifragile':'反脆弱','infinite-games':'有限与无限的游戏','extraordinary-lives':'格外的活法','saturn':'土星之环','japan':'日本历史与经济','agent':'机器如何学会做事','geb':'集异璧之大成','deluge':'滔天洪水','crashed':'崩盘','four-thousand-weeks':'四千周'}
 for slug,title in names.items():
@@ -82,9 +85,10 @@ for slug,title in names.items():
   episodes.append(dict(title='导读：为什么赢得战争，不等于赢得和平？',question='拥有力量，为什么仍可能无法建立持久的和平？',body=clean(body,str(p.relative_to(SITE))),original=f'{slug}/index.html#reading'))
  assert episodes,slug
  for i,e in enumerate(episodes):
-  e['id']=f'{slug}:{i+1}';e['number']=i+1;e['minutes']=max(1,round(len(re.sub('<[^>]+>','',e['body']))/300));e['title']=unescape(e['title'])
+  key=e['original'];identities.setdefault(key,f'{slug}:{i+1}' if not any(v==f'{slug}:{i+1}' for k,v in identities.items() if k!=key) else f'{slug}:u'+__import__('hashlib').sha256(key.encode()).hexdigest()[:12]);e['id']=identities[key];e['number']=i+1;e['minutes']=max(1,round(len(re.sub('<[^>]+>','',e['body']))/300));e['title']=unescape(e['title'])
  meta=dict(id=slug,title=title,count=len(episodes),description='现有完整导读 · 后续八期仅为阅读路线' if slug=='deluge' else f'{len(episodes)} 期主题阅读',episodes=[{k:v for k,v in e.items() if k!='body'} for e in episodes])
  books.append(meta);(SITE/'reading-data'/f'{slug}.json').write_text(json.dumps(episodes,ensure_ascii=False))
+identity_path.write_text(json.dumps(identities,ensure_ascii=False,indent=2))
 (SITE/'reading-data/catalog.json').write_text(json.dumps(books,ensure_ascii=False,indent=2))
 # Inject shared, buildless navigation into every original page. Idempotent.
 for p in SITE.glob('*/*.html'):
